@@ -3,5 +3,5 @@
 #
 #
 # 安装工具后如果没桌面快捷
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/102.png" width="650" height="418"  />
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/101.png" width="650" height="418"  />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/102.png"  />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/101.png"  />
