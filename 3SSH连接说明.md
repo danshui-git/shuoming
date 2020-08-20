@@ -7,7 +7,7 @@
 #
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/01.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/02.png" />
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/003.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/003.png" width="200" height="300" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/03.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/04.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/05.png" />
