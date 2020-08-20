@@ -5,12 +5,12 @@
 #
 - 必定要正确结束SSH连接才会继续编译，不结束的话，或者打开SSH后没管的话，30分钟后编译失败
 #
-![xm1](doc/01.png)
-![xm1](doc/02.png)
-![xm1](doc/03.png)
-![xm1](doc/04.png)
-![xm1](doc/05.png)
-![xm1](doc/06.png)
-![xm1](doc/07.png)
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/01.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/02.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/03.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/04.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/05.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/06.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/07.png" />
 #
 # - [SSH工具下载](https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html)
