@@ -14,7 +14,7 @@
 #
 - 6、`完成编译，下载固件`《[固件下载教程](https://github.com/danshui-git/shuoming/blob/master/4%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD.md)》
 #
-- 7、>`安装固件`，安装固件时出现“Please press Enter to activate this console”就表示安装好了，出现这个就不会跑码的，稍等1分钟就可以进入网页了
+> 7、`安装固件`，安装固件时出现“Please press Enter to activate this console”就表示安装好了，出现这个就不会跑码的，稍等1分钟就可以进入网页了
 >>如果会跑码，就耐心等待跑码完成，应该不需要1分钟就能跑完的
 #
 - 8、当你成功编译一次后，看看这些东西，对你点有帮助的
