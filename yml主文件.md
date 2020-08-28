@@ -19,4 +19,4 @@
 - `UPLOAD_COWTRANSFER: false`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到奶牛网盘,true开,false关）
 #
 - `UPLOAD_WETRANSFER: false`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到WETRANSFER网盘,true开,false关）
-<font color=red>红色文字</font>
+<font color=#>红色文字</font>
