@@ -14,7 +14,7 @@
 #
 - `UPLOAD_BIN_DIR: false`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传BIN文件夹（固件+IPK）到github空间,跟上传固件二选一即可,true开,false关）
 #
-- `UPLOAD_CONFIG: false`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（提取config.buildinfo配置文件,true开,false关）
+- `UPLOAD_CONFIG: true`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（提取config.buildinfo配置文件,true开,false关）
 #
 - `UPLOAD_FIRMWARE: true`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到github空间,跟上传BIN文件夹二选一即可,true开,false关）
 #
