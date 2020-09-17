@@ -10,3 +10,9 @@
 - 两个密匙都正确使用后就可以使用微信通知跟发布功能了，友情提示：密匙注意不要随便泄露
 #
 #<img src="https://github.com/danshui-git/shuoming/blob/master/doc/ms.png" />
+#
+#
+#
+#
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/tz2.png" />
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/tz1.png" />
