@@ -1,6 +1,6 @@
 # 补丁制作方法
 - 用WinSCP进入乌班图系统，按一下那个房子进入根目录
-- 新建目录（文件夹），名字叫diff，然后在diff文件夹建立test1.txt和test2.txt两个文件
+- 新建目录（文件夹），名字叫diff，然后在diff文件夹里面建立test1.txt和test2.txt两个文件
 - test1.txt放入源码文件内容
 - test2.txt也放入源码文件内容，并且修改好
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x001.png" />
