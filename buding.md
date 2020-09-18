@@ -10,11 +10,11 @@
 然后输入 diff -Naur test1.txt test2.txt > test.patch 命令，就完成了
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x004.png" />
 #
-- 刷新WinSCP，能看到test.patch 文件，这个就上补丁了
+- 刷新WinSCP，能看到test.patch 文件，这个就是补丁了
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x002.png" />
 #
 - 修改路径
 
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x003.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x0013.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x005.png" />
 
