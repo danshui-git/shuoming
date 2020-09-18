@@ -5,4 +5,4 @@
 # 安装工具后如果没桌面快捷
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/102.png"  />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/101.png"  />
-<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html#/Putty工具下载.md">工具下载和安装--点击下载工具</a>
+<a href="#/Putty工具下载.md">工具下载和安装--点击下载工具</a>
