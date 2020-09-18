@@ -18,3 +18,5 @@
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x003.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x005.png" />
 
+#
+- 补丁文件叫什么名字好像都没关系的，我懒的取名字，就默认名字前面加001-这样的，不过记得格式一定上（.patch）的
