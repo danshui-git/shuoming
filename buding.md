@@ -14,8 +14,7 @@
 #
 - 刷新WinSCP，能看到 test.patch 文件，这个就是补丁了
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/x002.png" />
-#
-- test1.txt跟test2.txt还有test.patch都不用管他了，你以后要做补丁就继续的原内容test1.txt，修改test2.txt，执行命令，test.patch就自动是最新补丁了
+
 #
 - 修改路径
 
@@ -24,3 +23,5 @@
 
 #
 - 补丁文件叫什么名字好像都没关系的，我懒的取名字，就默认名字前面加001-这样的，不过记得格式一定是（.patch）的
+#
+- test1.txt跟test2.txt还有test.patch都不用管他了，你以后要做补丁就继续的原内容test1.txt，修改test2.txt，执行命令，test.patch就自动是最新补丁了
