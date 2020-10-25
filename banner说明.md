@@ -9,6 +9,6 @@
 - 如果你修改的不满意或者修改错误，【Project源码】可以在[Project源码](https://github.com/project-openwrt/openwrt/blob/openwrt-18.06/package/lean/default-settings/files/openwrt_banner)这里复制内容，然后粘贴到你的仓库根目录的banner上
 
 
-
+#
 - banner作用，看下图
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/banner.png" />
