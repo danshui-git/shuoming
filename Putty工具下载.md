@@ -1,4 +1,4 @@
-# <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html">工具下载和安装--点击下载工具</a>
+# 工具下载和安装<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html">--【点击下载工具】</a>
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/100.png" />
 #
 #
