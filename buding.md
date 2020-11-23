@@ -27,5 +27,3 @@
 #
 - test1.txt跟test2.txt还有test.patch都不用管他了，你以后要做补丁就继续的原内容test1.txt，修改test2.txt，执行命令，test.patch就自动是最新补丁了
 #
-#
-- [教程原文](https://www.cnblogs.com/paul8339/p/11598782.html)
