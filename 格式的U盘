@@ -1,0 +1,28 @@
+结合大神们的帖子，Openwrt要支持USB, 包括NTFS格式的U盘，正常读写包括热插拔，需要的东西如下
+1. 添加USB相关支持
+Kernel modules —> USB Support —> <*> kmod-usb-core.  
+Kernel modules —> USB Support —> <*> kmod-usb-ohci.   
+Kernel modules —> USB Support —> <*> kmod-usb-uhci.   
+Kernel modules —> USB Support —> <*> kmod-usb-storage. #安装usb存储设备驱动  
+Kernel modules —> USB Support —> <*> kmod-usb-storage-extras.  
+Kernel modules —> USB Support —> <*> kmod-usb2.0  ##usb2.0
+Kernel modules —> USB Support —> <*> kmod-usb3.0 ##usb3.0
+2.添加SCSI支持
+Kernel modules —> Block Devices —> <*>kmod-scsi-core
+3.添加文件系统支持
+此处可根据自己的需求选择插件，
+请注意绝对不要选择kmod-fs-ntfs，否则NTFS格式U盘是只读模式。要想正常，请选4中的插件。
+Kernel modules —> Filesystems —> <*> kmod-fs-ext4 (移动硬盘EXT4格式选择)  
+Kernel modules —> Filesystems —> <*> kmod-fs-vfat(FAT16 / FAT32 格式 选择)  
+Kernel modules —> Filesystems —> <*> kmod-fuse  
+4.挂载NTFS
+Utilities —> Filesystem —> <*> ntfs-3g
+5.添加中文支持编码
+Kernel modules —> Native Language Support —> <*> kmod-nls-cp437  
+Kernel modules —> Native Language Support —> <*> kmod-nls-iso8859-1  
+Kernel modules —> Native Language Support —> <*> kmod-nls-utf8  
+Utilities  ---> disc ---> <*> fdisk.................................... 磁盘分区工具
+Utilities  ---> <*> usbutils................................... USB devices listing utilities  
+6.添加USB挂载
+Base system —> <*>block-mount
+Utilities —> Filesystem —> <*> badblocks 自动挂载工具
