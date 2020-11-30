@@ -30,7 +30,7 @@ Base system —> <*>block-mount
 
 以上有些已经选择了，有些没有选，我都列出来吧
 
-然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容填写下面的
+7.然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容填写下面的
 
 
 #!/bin/sh
@@ -121,3 +121,14 @@ if [ `basename $blkdev` != "block" ]; then
 
 fi
 
+
+8.插入U盘或移动硬盘 再次重启路由器 在挂载点中就可以看到已经挂载的设备
+
+如果U盘只有一个分区，就是/mnt/sda1，第二个分区是/mnt/sda2
+
+如果用Hub接入多个U盘，第二个设备就是/mnt/sdb，以此类推
+
+ 
+9.进入网络共享中，添加共享目录例如/mnt/sda1，权限为777(即完全访问)。
+
+至此就可以在网上邻居中看到路由器的这个共享文件夹了。
