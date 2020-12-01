@@ -32,8 +32,9 @@ Kernel modules —> Filesystems —> <*> kmod-fuse
 以上有些已经默认选择了，有些没有选，我都列出来吧
 
 
-4.然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容填写下面的，然后保存
+4.然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容复制#号里面的粘贴，然后保存
 
+##########################################################################
 
 #!/bin/sh
 
@@ -122,6 +123,8 @@ if [ `basename $blkdev` != "block" ]; then
  
 
 fi
+
+##########################################################################
 
 
 5.插入U盘或移动硬盘 再次重启路由器 在openwrt的‘系统’-->挂载点 查看设备
