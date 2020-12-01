@@ -1,4 +1,19 @@
 结合大神们的帖子，Openwrt要支持USB, 包括NTFS格式的U盘，正常读写包括热插拔，需要的东西如下
+
+
+6.添加USB挂载
+Base system —> <*>block-mount
+
+4.挂载NTFS
+Utilities  ---> disc --->   <*> fdisk
+Utilities  --->   <*> usbutils
+
+Utilities —> Filesystem —>  <*> ntfs-3g-utils
+Utilities —> Filesystem —> <*> badblocks 自动挂载工具
+
+2.添加SCSI支持
+Kernel modules —> Block Devices —>  <*>kmod-scsi-core
+
 1. 添加USB相关支持
 Kernel modules —> USB Support —>  <*> kmod-usb-core
 Kernel modules —> USB Support —>  <*> kmod-usb-ohci-pci
@@ -8,8 +23,7 @@ Kernel modules —> USB Support —>  <*> kmod-usb-storage-extras
 Kernel modules —> USB Support —>  <*> kmod-usb2-pci    ##usb2.0
 Kernel modules —> USB Support —>  <*> kmod-usb3   ##usb3.0
 
-2.添加SCSI支持
-Kernel modules —> Block Devices —>  <*>kmod-scsi-core
+
 
 3.添加文件系统支持
 请注意绝对不要选择kmod-fs-ntfs，否则NTFS格式U盘是只读模式。
@@ -17,16 +31,8 @@ Kernel modules —> Filesystems —> <*> kmod-fs-ext4
 Kernel modules —> Filesystems —> <*> kmod-fs-vfat
 Kernel modules —> Filesystems —> <*> kmod-fuse  
 
-4.挂载NTFS
-Utilities —> Filesystem —>  <*> ntfs-3g-utils
-Utilities —> Filesystem —> <*> badblocks 自动挂载工具
 
-5.
-Utilities  ---> disc --->   <*> fdisk
-Utilities  --->   <*> usbutils
 
-6.添加USB挂载
-Base system —> <*>block-mount
 
 以上有些已经选择了，有些没有选，我都列出来吧
 
