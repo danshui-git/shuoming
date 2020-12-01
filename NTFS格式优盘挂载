@@ -3,33 +3,34 @@
 编译固件时候SSH连接服务器配置固件，选取如下
 
 1.
-Base system —> <*>block-mount
+Base system —>  <*>block-mount
 
 2.
 Utilities  --->   <*> usbutils
 Utilities  ---> disc --->   <*> fdisk
 
-Utilities —> Filesystem —>  <*> ntfs-3g-utils
-Utilities —> Filesystem —> <*> badblocks 自动挂载工具
+Utilities —> Filesystem —>  <*> ntfs-3g
+Utilities —> Filesystem —>  <*> badblocks
 
 3.
 Kernel modules —> Block Devices —>  <*>kmod-scsi-core
 
 4. 
 Kernel modules —> USB Support —>  <*> kmod-usb-core
-Kernel modules —> USB Support —>  <*> kmod-usb-ohci-pci
+Kernel modules —> USB Support —>  <*> kmod-usb-ohci
 Kernel modules —> USB Support —>  <*> kmod-usb-uhci
-Kernel modules —> USB Support —>  <*> kmod-usb2-pci    ##usb2.0
-Kernel modules —> USB Support —>  <*> kmod-usb3   ##usb3.0
+Kernel modules —> USB Support —>  <*> kmod-usb2    ##usb2.0
+Kernel modules —> USB Support —>  <*> kmod-usb3    ##usb3.0
 Kernel modules —> USB Support —>  <*> kmod-usb-storage
 Kernel modules —> USB Support —>  <*> kmod-usb-storage-extras
 
 3.
-Kernel modules —> Filesystems —> <*> kmod-fs-ext4
-Kernel modules —> Filesystems —> <*> kmod-fs-vfat
-Kernel modules —> Filesystems —> <*> kmod-fuse  
+Kernel modules —> Filesystems —>  <*> kmod-fs-ext4
+Kernel modules —> Filesystems —>  <*> kmod-fs-vfat
+Kernel modules —> Filesystems —>  <*> kmod-fuse  
+请注意绝对不要选择kmod-fs-ntfs，否则NTFS格式U盘是只读模式
 
-以上有些已经默认选择了，有些没有选，我都列出来吧
+以上有些已源码已经默认选择了，有些没有选，我都列出来吧
 
 
 4.然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容复制#号里面的粘贴，然后保存
