@@ -1,5 +1,6 @@
 结合大神们的帖子，Openwrt要支持USB, 包括NTFS格式的U盘，正常读写包括热插拔，需要的东西如下
 
+编译固件时候SSH连接服务器配置固件，选取如下
 
 1.
 Base system —> <*>block-mount
@@ -31,7 +32,7 @@ Kernel modules —> Filesystems —> <*> kmod-fuse
 以上有些已经默认选择了，有些没有选，我都列出来吧
 
 
-4.然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容填写下面的
+4.然后在编译的对应机型的 files文件里面按 Add file 然后选 Create new file 然后写入路径 etc/hotplug.d/block/10-mount  内容填写下面的，然后保存
 
 
 #!/bin/sh
