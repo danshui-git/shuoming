@@ -15,13 +15,16 @@ Utilities —> Filesystem —> <*> badblocks 自动挂载工具
 Kernel modules —> Block Devices —>  <*>kmod-scsi-core
 
 1. 添加USB相关支持
-Kernel modules —> USB Support —>  <*> kmod-usb-core
+
 Kernel modules —> USB Support —>  <*> kmod-usb-ohci-pci
 Kernel modules —> USB Support —>  <*> kmod-usb-uhci
-Kernel modules —> USB Support —>  <*> kmod-usb-storage
-Kernel modules —> USB Support —>  <*> kmod-usb-storage-extras
 Kernel modules —> USB Support —>  <*> kmod-usb2-pci    ##usb2.0
 Kernel modules —> USB Support —>  <*> kmod-usb3   ##usb3.0
+
+Kernel modules —> USB Support —>  <*> kmod-usb-core
+Kernel modules —> USB Support —>  <*> kmod-usb-storage
+Kernel modules —> USB Support —>  <*> kmod-usb-storage-extras
+
 
 
 
