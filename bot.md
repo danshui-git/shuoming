@@ -21,3 +21,5 @@
 -4、     总结你获得的TELEGRAM_BOT_TOKEN为：987654321:FEDCBA_dfoiuweSWEczgxT7-l4r9Y
 
 -     你获得的TELEGRAM_BOT_TOKEN为：1239000174
+
+5、TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_BOT_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成，继续同样步骤完成TELEGRAM_CHAT_ID即可
