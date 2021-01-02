@@ -18,7 +18,7 @@
 -     https://api.telegram.org/bot9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y/getUpdates   
 - 然后在浏览器访问这个链接, 然后出来一串字符的，在字符里面找到message_id，需要注意的是这一串字符里面有3组阿拉伯数字的，你找"message_id":1,"from":{"id":1239000174,"is_bot" 1239000174这个就是你的TELEGRAM_CHAT_ID
 
--4、       总结你获得的TELEGRAM_BOT_TOKEN为：987654321:FEDCBA_dfoiuweSWEczgxT7-l4r9Y
+-     4、       总结你获得的TELEGRAM_BOT_TOKEN为：987654321:FEDCBA_dfoiuweSWEczgxT7-l4r9Y
 
 -     你获得的TELEGRAM_BOT_TOKEN为：1239000174
 
