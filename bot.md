@@ -18,12 +18,14 @@
 -     https://api.telegram.org/bot9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y/getUpdates   
 - 然后在浏览器访问这个链接, 然后出来一串字符的，在字符里面找到message_id，需要注意的是这一串字符里面有3组阿拉伯数字的，你找"message_id":1,"from":{"id":1239000174,"is_bot" 1239000174这个就是你的TELEGRAM_CHAT_ID
 
--     4、       总结你获得的TELEGRAM_BOT_TOKEN为：987654321:FEDCBA_dfoiuweSWEczgxT7-l4r9Y
+-     总结你获得的TELEGRAM_BOT_TOKEN为：987654321:FEDCBA_dfoiuweSWEczgxT7-l4r9Y
 
--     你获得的TELEGRAM_BOT_TOKEN为：1239000174
+-     你获得的TELEGRAM_CHAT_ID为：1239000174
 
-5、TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_BOT_TOKEN）不包括括号，Value下面大方框放进9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y，点下面的绿色按钮Add secret保存即完成
+4、TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_BOT_TOKEN）不包括括号，Value下面大方框放进9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y，点下面的绿色按钮Add secret保存即完成
 
-6、接下来再按`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_CHAT_ID）不包括括号，Value下面大方框放进1239000174，点下面的绿色按钮Add secret保存即完成
+5、接下来再按`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_CHAT_ID）不包括括号，Value下面大方框放进1239000174，点下面的绿色按钮Add secret保存即完成
 
-7、要记住，5跟6步的TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID都要是你自己获得的
+6、要记住，4跟5步的TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID都要是你自己获得的
+
+7、完毕
