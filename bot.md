@@ -10,7 +10,8 @@
 
 - 1.2.1 如果前面你已经点了 danshui_bot 的名字链接来发送过一次内容了就继续下面步骤，如果没有请去点击发送一次
 
-- 1.2.2 将前面获得的TELEGRAM_BOT_TOKEN替换掉这个url中的XXYY部分, https://api.telegram.org/botXXYY/getUpdates
+- 1.2.2 将前面获得的TELEGRAM_BOT_TOKEN替换掉这个url中的XXYY部分,
+-     https://api.telegram.org/botXXYY/getUpdates
 
 - 把TELEGRAM_BOT_TOKEN替换掉XXYY应该是这样的:   
 -     https://api.telegram.org/bot987654321:FEDCBA_dfoiuweSWEczgxT7-l4r9Y/getUpdates   
