@@ -29,3 +29,34 @@
 6、要记住，4跟5步的TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID都要是你自己获得的
 
 7、完毕
+
+
+
+
+##### 编译增加电报机器人信息推送
+- 有需要的你们自己加上，或者直接替换微信通知也可以，这个机器人推送消息比微信的好多了，没做好token跟id也不会出现错误而停止编译的
+
+- 开始编译的推送
+
+    - name: 电报机器人信息通知
+      run: |
+        curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人您要编译的[${{ env.WXFB_MESSAGE }}]固件正在努力耕耘中,请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+
+
+
+
+- 结尾的推送
+
+    - name: 电报机器人信息通知
+      run: |
+        curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨您要编译的[${{ env.WXFB_MESSAGE }}]固件顺利编译完成了！
+          
+          完成时间：${{ env.date1 }}
+          
+          发布地址：${{ env.GITHUB_RELEASE }}
+          
+          奶牛快传：${{ env.COWTRANSFER_URL }}
+          
+          WeTransfer：${{ env.WETRANSFER_URL }}
+          
+          祝小主人见人爱，💐花见花开，车见车载，天天好心情🎈！！！" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" 
