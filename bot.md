@@ -34,18 +34,14 @@
 
 
 ##### 编译增加电报机器人信息推送
-- 有需要的你们自己加上，或者直接替换微信通知也可以，这个机器人推送消息比微信的好多了，没做好token跟id也不会出现错误而停止编译的
+###### 有需要的你们自己加上，或者直接替换微信通知也可以，这个机器人推送消息比微信的好多了，没做好token跟id也不会出现错误而停止编译的
 
-- 开始编译的推送
 
     - name: 电报机器人信息通知
       run: |
         curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人您要编译的[${{ env.WXFB_MESSAGE }}]固件正在努力耕耘中,请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
 
 
-
-
-- 结尾的推送
 
     - name: 电报机器人信息通知
       run: |
