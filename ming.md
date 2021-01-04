@@ -2,7 +2,7 @@
 
 ### 首先要说明的是，很多命令都会用到关键字符串这个是很主要的，你要确定这个关键字符串在当前文件里面是独一无二的，可以很长也可以很短，可以不完整的，也可以是完整的一句
 #
-1
+# 1
 #
     sed -i "/danshui/a\281677160" xxx/123.txt
 
@@ -32,7 +32,7 @@
        rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 #
 #
-2
+# 2
 #
     sed -i 's/^#\(.*danshui\)/\1/' xxx/123.txt
 
@@ -57,7 +57,7 @@
     
 #
 #
-3
+# 3
 #    
     sed -i 's@.*danshui*@#&@g' xxx/123.txt
 - 先查找关键字符串danshui，然后在这一行代码最前面增加#号，xxx/123.txt是文件
@@ -80,7 +80,7 @@
     
 #
 #
-4
+# 4
 #  
     sed -i 's/danshui/281677160/g' xxx/123.txt
 - 先查找关键字符串danshui，然后替换成你想要的，比如我现在替换成281677160，xxx/123.txt是文件
@@ -112,3 +112,36 @@
 
       sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/$1$K8/hZkV0$9JIcU2UgNv.ApnS6Q3RGj.:18631/g' package/lean/default-settings/files/zzz-default-settings
 
+#
+#
+# 5
+#  
+- 使用命令拉取别人的仓库
+
+- 比如拉取我的插件包
+
+      git clone https://github.com/281677160/openwrt-package package/danshui
+      
+ - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，存放的时候要不要建立一个文件夹来存放呢？如果需要的话，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名
+ 
+ - 这样拉取的是别人主仓库，怎么看是不是主仓库呢？就是用链接打开后直接能见的就是主仓库，还可以有分支的，如果要拉取分支怎么办呢？在链接前面加个分支号就好了
+ 
+       git clone -b 19.07 https://github.com/281677160/openwrt-package package/danshui
+       
+ - 就这样就OK了，那个-b不变的，那个19.07就是我插件包的另外一个分支，如果你们拉取别人的仓库，要拉取其他分支，就改成他的分支名称就可以了，记住了-b不变  
+ 
+#
+#
+# 6
+#  
+- 单独拉取特定的插件或者文件
+
+      svn co https://github.com/281677160/openwrt-package/trunk/luci-app-clash package/luci-app-clash
+      
+- 这个关系就跟上面差不多了，就不多说了，重点要说的是这个链接是有改变的，怎么改变法呢？整个链接真正的是这样的
+
+      https://github.com/281677160/openwrt-package/tree/master/luci-app-clash
+      
+- 大家看清楚没有？链接里面是带有分支名称的，还有一个tree，就是这个了 tree/master 把这里替换成 trunk 就可以了，主仓库就这样拉取，如果要拉取分支的呢？也简单的，把tree改成branches就行，比如
+
+      svn co https://github.com/281677160/openwrt-package/branches/19.07/luci-app-eqos package/luci-app-eqos
