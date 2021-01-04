@@ -22,4 +22,9 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-要记住，这个增加方法，用了后只会在
+###### 要记住，这个增加方法，用了后只会对齐第一格的，如果不是第一格就能生效的文件就不能用
+       比如原来的文件是空了格的，你这样加进去就可能造成格式错误导致编译错误了
+       rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+    281677160
+       rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+       rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
