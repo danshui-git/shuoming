@@ -83,7 +83,7 @@
 # 4
 #  
     sed -i 's/danshui/281677160/g' xxx/123.txt
-- 先查找关键字符串danshui，然后替换成你想要的，比如我现在danshui替换成281677160，xxx/123.txt是文件
+- 先查找关键字符串danshui，然后替换成你想要的，比如我现在danshui替换成281677160，xxx/123.txt是文件，要注意的是关键字符串不能带有/的
 
 - 命令：sed -i 's/mwan.htm/281677160/g' package/lean/default-settings/files/zzz-default-settings
 
@@ -134,7 +134,7 @@
 #
 # 6
 #  
-- 单独拉取特定的插件或者文件
+- 单独拉取特定的插件或者文件，比如单独拉取插件包的luci-app-clash
 
       svn co https://github.com/281677160/openwrt-package/trunk/luci-app-clash package/luci-app-clash
       
