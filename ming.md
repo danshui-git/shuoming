@@ -10,7 +10,7 @@
 
 - 比如:在源码的zzz-default-settings文件关键字符串下面增加一行代码，zzz-default-settings文件在源码的package/lean/default-settings/files里面
 
-######  下面的文件我都拿zzz-default-settings做举例了，意思就是xxx/123.txt变成package/lean/default-settings/files/zzz-default-settings
+- ######  下面的文件我都拿zzz-default-settings做举例了，意思就是xxx/123.txt变成package/lean/default-settings/files/zzz-default-settings
 
 - 然后就可以写出整个命令了：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
 
