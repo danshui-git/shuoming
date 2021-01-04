@@ -11,12 +11,12 @@
 - 然后就可以写出整个命令了：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
 
 - 示例
-- 文件原本是这样的
+###### 文件原本是这样的
        rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
        rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
        rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-- 用了命令后
+###### 用了命令后
        rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
        281677160
        rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
