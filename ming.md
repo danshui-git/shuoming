@@ -83,7 +83,7 @@
 # 4
 #  
     sed -i 's/danshui/281677160/g' xxx/123.txt
-- 先查找关键字符串danshui，然后替换成你想要的，比如我现在替换成281677160，xxx/123.txt是文件
+- 先查找关键字符串danshui，然后替换成你想要的，比如我现在danshui替换成281677160，xxx/123.txt是文件
 
 - 命令：sed -i 's/mwan.htm/281677160/g' package/lean/default-settings/files/zzz-default-settings
 
@@ -110,7 +110,7 @@
 
 - 我的替换方式是这样的
 
-      sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/$1$K8/hZkV0$9JIcU2UgNv.ApnS6Q3RGj.:18631/g' package/lean/default-settings/files/zzz-default-settings
+- sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/$1$K8/hZkV0$9JIcU2UgNv.ApnS6Q3RGj.:18631/g' package/lean/default-settings/files/zzz-default-settings
 
 #
 #
