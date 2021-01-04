@@ -12,14 +12,14 @@
 
 - 示例
 - 文件原本是这样的
-      rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
-      rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
-      rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+       rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+       rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+       rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 - 用了命令后
-      rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
-      281677160
-      rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
-      rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+       rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+       281677160
+       rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+       rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 要记住，这个增加方法，用了后只会在
