@@ -50,3 +50,7 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
     #rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+    
+###### 其实这个命令你们很经常见的，那就是增加lede源码的ShadowSocksR Plus+
+    sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+    
