@@ -28,3 +28,22 @@
     281677160
        rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
        rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+#
+#
+
+    sed -i 's/^#\(.*danshui\)/\1/' xxx/123.txt
+
+- 先查找关键字符串danshui，然后把这一行代码最前面的#号去掉，xxx/123.txt是文件
+
+- 命令：sed -i 's/^#\(.*mwan.htm\)/\1/' package/lean/default-settings/files/zzz-default-settings
+
+- 示例
+###### 文件原本是这样的
+    #rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+    #rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+    #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+
+###### 用了命令后
+    rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+    #rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+    #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
