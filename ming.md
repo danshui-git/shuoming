@@ -4,22 +4,22 @@
 
        sed -i "/danshui/a\281677160" xxx/123.txt
 
-先查找关键字符串danshui，然后在danshui字符串下一行插入281677160，xxx/123.txt是文件
+- 先查找关键字符串danshui，然后在danshui字符串下一行插入281677160，xxx/123.txt是文件
 
-比如:在源码的zzz-default-settings文件关键字符串下面增加一行代码，zzz-default-settings文件在源码的package/lean/default-settings/files里面
+- 比如:在源码的zzz-default-settings文件关键字符串下面增加一行代码，zzz-default-settings文件在源码的package/lean/default-settings/files里面
 
-然后就可以写出整个命令了：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
+- 然后就可以写出整个命令了：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
 
-示例
-文件原本是这样的
-rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
-rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
-rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+- 示例
+- 文件原本是这样的
+      rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+      rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+      rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-用了命令后
-rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
-281677160
-rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
-rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+- 用了命令后
+      rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+      281677160
+      rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
+      rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 要记住，这个增加方法，用了后只会在
