@@ -7,7 +7,7 @@
 #
 - 打开了SSH连接功能，又没连接的话，30分钟后会跳过SSH继续运行编译的下一步
 #
-#### SSH配备了电报机器人推送SSH代码功能，使用了此功能的话，编译运行到SSH处会自动的发送SSH到电报上面，就不用一直盯着网页看了，[电报机器人推送教程](https://github.com/danshui-git/shuoming/blob/master/bot.md)
+#### SSH配备了电报机器人推送SSH代码功能，使用了此功能的话，编译运行到SSH处会自动的发送SSH代码到电报上面，就不用一直盯着网页看了，[电报机器人推送教程](https://github.com/danshui-git/shuoming/blob/master/bot.md)
 #
 #
 - [SSH工具下载](https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html)
