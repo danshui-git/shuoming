@@ -22,3 +22,18 @@
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/07.png" />
 #
 # - [SSH工具下载](https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html)
+
+#
+#
+#
+#
+#
+# 如果需要SSH远程，又没设置好电报机器人接收SSH代码的话，就一定要操作到下面最后那个图片那里，等SSH展开，复制代码
+#
+- ### 如果已经连接了SSH后选择完插件，就一路退出到yes or no那里按yes保存配置，然后必定要正确按键盘Ctrl+d结束SSH连接才会继续编译
+#
+- ### 如果打开了SSH功能，又没去用代码连接的话，就要等30分钟后才会自动跳到下一步继续编译
+#
+## -!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd003.png" />
+## -!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd004.png" />
+## -!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd005.png" />
