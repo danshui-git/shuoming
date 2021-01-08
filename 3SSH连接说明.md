@@ -26,7 +26,7 @@
 #
 #
 #
-# 如果需要SSH远程，又没设置好电报机器人接收SSH代码的话，就一定要操作到下面最后那个图片那里，等SSH展开，复制代码
+# 如果需要SSH远程，又没设置好电报机器人接收SSH代码的话，启动编译后，就一定要操作到下面最后那个图片那里，等SSH展开，复制代码
 #
 ## -!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd003.png" />
 ## -!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd004.png" />
