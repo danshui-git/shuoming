@@ -13,6 +13,8 @@
 #
 - [SSH工具下载](https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.74.html)
 #
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd003.png" width="650" height="418" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/sd004.png" width="650" height="418" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/01.png" width="650" height="418" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/02.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/003.png" width="650" height="418" />
