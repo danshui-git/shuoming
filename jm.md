@@ -3,7 +3,7 @@
 - 1、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm1.png" />
 - 2、
-3 <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm2.png" />
+# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm2.png" />
 - 3、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm3.png" />
 - 4、
