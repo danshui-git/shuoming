@@ -9,7 +9,7 @@
 #
 - 两个密匙都正确使用后就可以使用微信通知跟发布功能了，友情提示：密匙注意不要随便泄露
 #
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/ms2.png" width="1055" height="998" />
+- ### 发布密匙获取跟存放密匙的图片教程，微信的密匙你们按上面的获取就可以了，存放是一样的。[图片教程](https://github.com/danshui-git/shuoming/blob/master/jm.md)
 #
 #
 <img src="https://github.com/danshui-git/shuoming/blob/master/doc/tz11.png" />
