@@ -8,7 +8,7 @@
 
 - 先查找关键字符串danshui，然后在danshui字符串下一行插入281677160，xxx/123.txt是文件
 
-- 比如:在源码的zzz-default-settings文件关键字符串下面增加一行代码，zzz-default-settings文件在源码的package/lean/default-settings/files里面
+- 比如:在源码的zzz-default-settings文件关键字符串下面增加一行代码，zzz-default-settings文件在源码的package/lean/default-settings/files里面，然后正确的整个路径就是：package/lean/default-settings/files/zzz-default-settings
 
 - ######  下面的文件我都拿zzz-default-settings做举例了，意思就是xxx/123.txt变成package/lean/default-settings/files/zzz-default-settings
 
