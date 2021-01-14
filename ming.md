@@ -4,15 +4,17 @@
 #
 # 1
 #
-    sed -i "/danshui/a\281677160" xxx/123.txt
 
-- 先查找关键字符串danshui，然后在danshui字符串下一行插入281677160，xxx/123.txt是文件
+- ###### 以下所有命令的关键字符串我都使用 mwan.htm 你们要明白你们要干什么的时候在该文件怎么找出独一无二的关键字符串就好了
 
-- 比如:在源码的zzz-default-settings文件关键字符串下面增加一行代码，zzz-default-settings文件在源码的package/lean/default-settings/files里面，然后正确的整个路径就是：package/lean/default-settings/files/zzz-default-settings
+- ######  下面的文件我都拿zzz-default-settings做举例了，文件在源码的package/lean/default-settings/files里面，然后正确的整个路径就是：package/lean/default-settings/files/zzz-default-settings
 
-- ######  下面的文件我都拿zzz-default-settings做举例了，意思就是xxx/123.txt变成package/lean/default-settings/files/zzz-default-settings
+#
+# 第1条
+#
+- - 先查找关键字符串mwan.htm，然后在这个关键字符串下面增加一行代码
 
-- 然后就可以写出整个命令了：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
+      命令：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
 
 - 示例
 ###### 如果文件原本是这样的
@@ -20,7 +22,7 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-###### 用了命令后
+##### 用了命令后
     rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
     281677160                                                      <------ 用了命令后，这里增加一行代码了
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
@@ -34,11 +36,10 @@
        rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 #
 #
-# 2
+# 第2条
 #
-    sed -i 's/^#\(.*mwan.htm\)/\1/' xxx/123.txt
 
-- 先查找关键字符串mwan.htm，然后把这一行代码最前面的#号去掉，xxx/123.txt是文件
+- 先查找关键字符串mwan.htm，然后把这一行代码最前面的#号去掉
 
       命令：sed -i 's/^#\(.*mwan.htm\)/\1/' package/lean/default-settings/files/zzz-default-settings
 
@@ -48,7 +49,7 @@
     #rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-###### 用了命令后
+##### 用了命令后
     rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm       <------ 用了命令后，前面的 # 去掉了
     #rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
@@ -61,8 +62,7 @@
 #
 # 3
 #    
-    sed -i 's@.*mwan.htm*@#&@g' xxx/123.txt
-- 先查找关键字符串mwan.htm，然后在这一行代码最前面增加#号，xxx/123.txt是文件
+- 先查找关键字符串mwan.htm，然后在这一行代码最前面增加 # 号
 
       命令：sed -i 's@.*mwan.htm*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
@@ -84,7 +84,6 @@
 #
 # 4
 #  
-    sed -i 's/mwan.htm/281677160/g' xxx/123.txt
 - 先查找关键字符串mwan.htm，然后替换成你想要的，比如我现在mwan.htm替换成281677160，xxx/123.txt是文件，要注意的是关键字符串不能带有/的
 
       命令：sed -i 's/mwan.htm/281677160/g' package/lean/default-settings/files/zzz-default-settings
