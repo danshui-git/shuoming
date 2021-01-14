@@ -22,23 +22,23 @@
 
 ###### 用了命令后
     rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
-    281677160
+    281677160                                                      <------ 用了命令后，这里增加一行代码了
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 ###### 要记住，这个增加方法，用了后只会对齐第一格的，如果不是第一格就能生效的文件就不能用，比如原来的文件是空了格的，你这样加进去就可能造成格式错误导致编译错误了
        
        rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
-    281677160
+    281677160                                                       <------ 用了命令后，这里增加一行代码了，但是跟文件夹本来的源码不对称，可能造成格式错误了
        rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
        rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 #
 #
 # 2
 #
-    sed -i 's/^#\(.*danshui\)/\1/' xxx/123.txt
+    sed -i 's/^#\(.*mwan.htm\)/\1/' xxx/123.txt
 
-- 先查找关键字符串danshui，然后把这一行代码最前面的#号去掉，xxx/123.txt是文件
+- 先查找关键字符串mwan.htm，然后把这一行代码最前面的#号去掉，xxx/123.txt是文件
 
 - 命令：sed -i 's/^#\(.*mwan.htm\)/\1/' package/lean/default-settings/files/zzz-default-settings
 
@@ -49,7 +49,7 @@
     #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 ###### 用了命令后
-    rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+    rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm       <------ 用了命令后，前面的 # 去掉了
     #rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     #rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
     
@@ -61,10 +61,10 @@
 #
 # 3
 #    
-    sed -i 's@.*danshui*@#&@g' xxx/123.txt
-- 先查找关键字符串danshui，然后在这一行代码最前面增加#号，xxx/123.txt是文件
+    sed -i 's@.*mwan.htm*@#&@g' xxx/123.txt
+- 先查找关键字符串mwan.htm，然后在这一行代码最前面增加#号，xxx/123.txt是文件
 
-- 命令：sed -i 's@.*danshui*@#&@g' package/lean/default-settings/files/zzz-default-settings
+- 命令：sed -i 's@.*mwan.htm*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 - 示例
 ###### 如果文件原本是这样的
@@ -73,7 +73,7 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 ###### 用了命令后
-    #rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
+    #rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm     <------ 用了命令后，前面增加一个 # 号，这样就忽略了这行代码了
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
     
@@ -84,8 +84,8 @@
 #
 # 4
 #  
-    sed -i 's/danshui/281677160/g' xxx/123.txt
-- 先查找关键字符串danshui，然后替换成你想要的，比如我现在danshui替换成281677160，xxx/123.txt是文件，要注意的是关键字符串不能带有/的
+    sed -i 's/mwan.htm/281677160/g' xxx/123.txt
+- 先查找关键字符串mwan.htm，然后替换成你想要的，比如我现在mwan.htm替换成281677160，xxx/123.txt是文件，要注意的是关键字符串不能带有/的
 
 - 命令：sed -i 's/mwan.htm/281677160/g' package/lean/default-settings/files/zzz-default-settings
 
@@ -96,7 +96,7 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
 ###### 用了命令后
-    rm -f /usr/lib/lua/luci/view/admin_status/index/281677160
+    rm -f /usr/lib/lua/luci/view/admin_status/index/281677160   <------ 用了命令后，mwan.htm替换成281677160
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
     
