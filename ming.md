@@ -5,9 +5,9 @@
 # 1
 #
 
-- ###### 以下所有命令的关键字符串我都使用 mwan.htm 你们要明白你们要干什么的时候在该文件怎么找出独一无二的关键字符串就好了
+- #### 以下所有命令的关键字符串我都使用 mwan.htm 你们要明白你们要干什么的时候在该文件怎么找出独一无二的关键字符串就好了
 
-- ######  下面的文件我都拿zzz-default-settings做举例了，文件在源码的package/lean/default-settings/files里面，然后正确的整个路径就是：package/lean/default-settings/files/zzz-default-settings
+- ####  下面的文件我都拿zzz-default-settings做举例了，文件在源码的package/lean/default-settings/files里面，然后正确的整个路径就是：package/lean/default-settings/files/zzz-default-settings
 
 #
 # 第1条
@@ -72,7 +72,7 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-###### 用了命令后
+##### 用了命令后
     #rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm     <------ 用了命令后，前面增加一个 # 号，这样就忽略了这行代码了
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
@@ -84,7 +84,7 @@
 #
 # 4
 #  
-- 先查找关键字符串mwan.htm，然后替换成你想要的，比如我现在mwan.htm替换成281677160，xxx/123.txt是文件，要注意的是关键字符串不能带有/的
+- 先查找关键字符串mwan.htm，然后替换成你想要的，要注意的是关键字符串不能带有 / 的
 
       命令：sed -i 's/mwan.htm/281677160/g' package/lean/default-settings/files/zzz-default-settings
 
@@ -94,7 +94,7 @@
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
 
-###### 用了命令后
+##### 用了命令后
     rm -f /usr/lib/lua/luci/view/admin_status/index/281677160   <------ 用了命令后，mwan.htm替换成281677160
     rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
     rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
