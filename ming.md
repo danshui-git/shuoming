@@ -102,7 +102,7 @@
 ###### 其实这个命令你们很经常见的，那就是替换ip
     sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
     
-- 这个用的比较多，也可在编译的时候替换成你想要的密码的，固件安装好，修改好秘密后，用 WinSCP 进入固件，然后在etc文件夹找到 shadow 文件，打开后会有一串加密的密码
+- 这个用的比较多，也可在编译的时候替换成你想要的密码的，固件安装好，修改好秘密后，用 [WinSCP](https://winscp.net/eng/download.php) 进入固件，然后在etc文件夹找到 shadow 文件，打开后会有一串加密的密码
 类似这样的 root:$1$K8/hZkV0$9JIcU2UgNv.ApnS6Q3RGj.:18631:0:99999:7::: 你们自己去看看，然后在源码的package/lean/default-settings/files/zzz-default-settings对比一下他的密码就明白了
   
 ###### 原密码
