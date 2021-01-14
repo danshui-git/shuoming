@@ -12,7 +12,7 @@
 #
 # 第1条
 #
-- - 先查找关键字符串mwan.htm，然后在这个关键字符串下面增加一行代码
+- 先查找关键字符串mwan.htm，然后在这个关键字符串下面增加一行代码
 
       命令：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
 
