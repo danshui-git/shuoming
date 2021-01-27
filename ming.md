@@ -3,14 +3,13 @@
 ### 首先要说明的是，很多命令都会用到关键字符串这个是很主要的，你要确定这个关键字符串在当前文件里面是独一无二的，可以很长也可以很短，可以不完整的，也可以是完整的一句
 #
 ### 拉取插件的命令放在diy-1.sh文件，其他命令一般都是放在diy-2.sh使用，请大家勿搞错了
-# 1
 #
 
 - #### 以下所有命令的关键字符串我都使用 mwan.htm 你们要明白你们要干什么的时候在该文件怎么找出独一无二的关键字符串就好了
 
 - ####  下面的文件我都拿zzz-default-settings做举例了，文件在源码的package/lean/default-settings/files里面，然后正确的整个路径就是：package/lean/default-settings/files/zzz-default-settings
 
-#
+---
 # 第1条
 #
 - 先查找关键字符串mwan.htm，然后在这个关键字符串下面增加一行代码
@@ -35,8 +34,9 @@
     281677160                        <------ 用了命令后，这里增加一行代码了，但是跟文件夹本来的源码不对称，可能造成格式错误了
        rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
        rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+---
 #
-#
+---
 # 第2条
 #
 
@@ -57,10 +57,10 @@
     
 ###### 其实这个命令你们很经常见的，那就是增加lede源码的ShadowSocksR Plus+
     sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-    
+---    
     
 #
-#
+---
 # 第3条
 #    
 - 先查找关键字符串mwan.htm，然后在这一行代码最前面增加 # 号
