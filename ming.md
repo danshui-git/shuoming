@@ -80,9 +80,10 @@
     
 ###### 其实这个命令你们很经常见的，那就是把密码改成空
     sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
-    
+---    
 #
 #
+---
 # 第4条
 #  
 - 先查找关键字符串mwan.htm，然后替换成你想要的，要注意的是关键字符串不能带有 / 的
@@ -113,9 +114,10 @@
 - 我的替换方式是这样的
 
       sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/$1$K8/hZkV0$9JIcU2UgNv.ApnS6Q3RGj.:18631/g' package/lean/default-settings/files/zzz-default-settings
-
+---
 #
 #
+---
 # 第5条
 #  
 - 使用命令拉取别人的仓库
@@ -135,9 +137,10 @@
        git clone -b 19.07 https://github.com/281677160/openwrt-package package/danshui
        
  - 就这样就OK了，加个-b 然后分支名称，那个19.07就是我插件包的另外一个分支，如果你们拉取别人的仓库，要拉取其他分支，就改成他的分支名称就可以了
- 
+--- 
 #
 #
+---
 # 第6条
 #  
 - 单独拉取特定的插件或者文件，比如单独拉取插件包的luci-app-clash
