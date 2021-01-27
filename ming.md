@@ -13,8 +13,8 @@
 # 第1条
 #
 - 先查找关键字符串mwan.htm，然后在这个关键字符串下面增加一行代码
-
-      命令：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
+```yaml
+    命令：sed -i "/mwan.htm/a\281677160" package/lean/default-settings/files/zzz-default-settings
 
 - 示例
 ###### 如果文件原本是这样的
@@ -33,7 +33,9 @@
        rm -f /usr/lib/lua/luci/view/admin_status/index/mwan.htm
     281677160                        <------ 用了命令后，这里增加一行代码了，但是跟文件夹本来的源码不对称，可能造成格式错误了
        rm -f /usr/lib/lua/luci/view/admin_status/index/upnp.htm
-       rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+
+      rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+```
 ---
 #
 ---
