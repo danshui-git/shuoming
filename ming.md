@@ -124,13 +124,12 @@
 
 - 比如：
 
-      git clone https://github.com/281677160/openwrt-package package/danshui
       git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
       git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
       git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
       git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
       
- - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，存放的时候要不要建立一个文件夹来存放呢？如果需要的话，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名
+ - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/fw876/helloworld 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，存放的时候要不要建立一个文件夹来存放呢？如果需要的话，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名
  
  - 这样拉取的是别人主仓库，怎么看是不是主仓库呢？就是用链接打开后直接能见的就是主仓库，还可以有分支的，如果要拉取分支怎么办呢？在链接前面加个分支号就好了
  
