@@ -43,7 +43,7 @@
 #
 
 - 先查找关键字符串mwan.htm，然后把这一行代码最前面的#号去掉
-
+```yaml
       命令：sed -i 's/^#\(.*mwan.htm\)/\1/' package/lean/default-settings/files/zzz-default-settings
 
 - 示例
@@ -59,6 +59,7 @@
     
 ###### 其实这个命令你们很经常见的，那就是增加lede源码的ShadowSocksR Plus+
     sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+```
 ---    
     
 #
@@ -66,8 +67,7 @@
 # 第3条
 #    
 - 先查找关键字符串mwan.htm，然后在这一行代码最前面增加 # 号
-
-      命令：sed -i 's@.*mwan.htm*@#&@g' package/lean/default-settings/files/zzz-default-settings
+```yaml      命令：sed -i 's@.*mwan.htm*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 - 示例
 ###### 如果文件原本是这样的
@@ -82,6 +82,7 @@
     
 ###### 其实这个命令你们很经常见的，那就是把密码改成空
     sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
+```
 ---    
 #
 #
@@ -89,7 +90,7 @@
 # 第4条
 #  
 - 先查找关键字符串mwan.htm，然后替换成你想要的，要注意的是关键字符串不能带有 / 的
-
+```yaml
       命令：sed -i 's/mwan.htm/281677160/g' package/lean/default-settings/files/zzz-default-settings
 
 - 示例
@@ -116,6 +117,7 @@
 - 我的替换方式是这样的
 
       sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0/$1$K8/hZkV0$9JIcU2UgNv.ApnS6Q3RGj.:18631/g' package/lean/default-settings/files/zzz-default-settings
+```
 ---
 #
 #
