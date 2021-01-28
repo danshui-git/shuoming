@@ -129,18 +129,25 @@
 
 - 比如：
 
+      git clone https://github.com/281677160/openwrt-package package/danshui
+      
+ - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，存放的时候要不要建立一个文件夹来存放呢？如果需要的话，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名
+
+- 还有就是拉取别人插件的时候要注意看人家写的内容，有没有需要什么依赖的，需要的话要一起拉取了，要不然拉了也是没用过的，不过有些插件的依赖我都直接放插件包了
+
+- 比如：
+
       git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
       git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
       git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
       git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-      
- - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/fw876/helloworld 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，存放的时候要不要建立一个文件夹来存放呢？如果需要的话，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名
+      git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
  
- - 这样拉取的是别人主仓库，怎么看是不是主仓库呢？就是用链接打开后直接能见的就是主仓库，还可以有分支的，如果要拉取分支怎么办呢？在链接前面加个分支号就好了
+ - 上面那样拉取的是别人主仓库，怎么看是不是主仓库呢？就是用链接打开后直接能见的就是主仓库，还可以有分支的，如果要拉取分支怎么办呢？在链接前面加个分支号就好了
  
        git clone -b 19.07 https://github.com/281677160/openwrt-package package/danshui
        
- - 就这样就OK了，加个-b 然后分支名称，那个19.07就是我插件包的另外一个分支，如果你们拉取别人的仓库，要拉取其他分支，就改成他的分支名称就可以了
+ - 就这样就OK了，加个-b 然后分支名称，那个19.07就是我插件包的另外一个分支，如果你们拉取别人的仓库，要拉取其他分支，就改成他的分支名称就可以了，要注意格式，该有空格的地方要有空格
 --- 
 #
 #
