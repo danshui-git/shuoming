@@ -1,6 +1,6 @@
 # 编译说明：
 # 
-# 《[到这里拉取一键编译仓库](https://github.com/281677160/Lede-OpenWrt.git)》
+# 《[到这里拉取一键编译仓库](https://github.com/281677160/build-openwrt)》
 #
 - 1、`注册及登录github账号`《[注册链接](https://github.com)》
 -----
