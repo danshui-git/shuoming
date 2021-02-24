@@ -53,7 +53,7 @@
           
               完成时间：${{ env.date1 }}
           
-              发布地址：${{ env.GITHUB_RELEASE }}
+              发布地址：${{ env.GITHUB_RELEASE }}/releases
           
               奶牛快传：${{ env.COWTRANSFER_URL }}
           
