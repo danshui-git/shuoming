@@ -40,12 +40,13 @@
 ##### 编译增加电报机器人信息推送
 ###### 有需要的你们自己加上替换微信通知的，开关还是使用微信通知的开关，这个机器人推送消息比微信的好多了，没做好token跟id也不会出现错误而停止编译的
 
-```
+```yaml
 
     - name: 电报机器人信息通知
-      if: env.SERVERCHAN_SCKEY == 'true'
       run: |
-        curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人您要编译的[${{matrix.target}}]固件正在努力耕耘中,请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage"
+        if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
+          curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人您要编译的[${{matrix.target}}]固件正在努力耕耘中,请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+        fi
 
 
 
@@ -53,8 +54,11 @@
 
 
     - name: 电报机器人信息通知
-      if: steps.organizer.outputs.status == 'success' && env.SERVERCHAN_SCKEY == 'true'
       run: |
-        curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨使用[${{matrix.target}}]编译的[${{ env.NAME2 }}${{ env.NAME1 }}]固件顺利编译完了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage"
+        if [[ "${BOT}" == "TRUE" ]]; then
+          if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
+            curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨使用[${{matrix.target}}]编译的[${{ env.NAME2 }}${{ env.NAME1 }}]固件顺利编译完了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+          fi
+        fi
 
 ```
