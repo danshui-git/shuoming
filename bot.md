@@ -57,7 +57,7 @@
       run: |
         if [[ "${BOT}" == "TRUE" ]]; then
           if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
-            curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨使用[${{matrix.target}}]编译的[${{ env.NAME2 }}${{ env.NAME1 }}]固件顺利编译完了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+            curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨使用[${{matrix.target}}]编译的[${{ env.NAME2 }}-${{ env.NAME1 }}]固件顺利编译完了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
           fi
         fi
 
