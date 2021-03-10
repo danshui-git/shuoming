@@ -46,7 +46,7 @@
       run: |
         if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
           curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人：
-          您使用【${{github.repository}}】仓库编译的【${{matrix.target}}】固件正在努力耕耘中,请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+          您正在使用【${{github.repository}}】仓库的【${{matrix.target}}】文件夹编译固件中,请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
         fi
 
 
