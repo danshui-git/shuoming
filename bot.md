@@ -46,7 +46,7 @@
       run: |
         if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
           curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人：
-          您正在使用【${{github.repository}}】仓库的【${{matrix.target}}】文件夹编译固件中(#${{github.run_number}}),请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+          您正在使用【${{matrix.target}}】文件夹编译固件中(${CangKu}仓库的#${Run_number}号),请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
         fi
 
 
@@ -59,7 +59,7 @@
         if [[ "${BOT}" == "TRUE" ]]; then
           if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
             curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨：
-            您使用【${{github.repository}}】仓库的【${{matrix.target}}】文件夹编译的[${{ env.NAME2 }}-${{ env.NAME1 }}]固件(#${{github.run_number}})顺利编译完成了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
+            您使用【${{matrix.target}}】文件夹编译的[${{ env.NAME2 }}-${{ env.NAME1 }}]固件(${CangKu}仓库的#${Run_number}号)顺利编译完成了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
           fi
         fi
 
