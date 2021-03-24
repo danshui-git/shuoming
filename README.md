@@ -3,17 +3,11 @@
 #### - 【[Telegram交流群](https://t.me/joinchat/AAAAAE3eOMwEHysw9HMcVQ)】-&nbsp;&nbsp;&nbsp;- 【[Telegram下载](https://telegram.org/)】-&nbsp;&nbsp;&nbsp;- 【[Telegram使用中文方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)】-
 #
 
-- 2021年2月19号改版最新编译脚本，此次脚本增加一个自定义文件，这个文件是每次启动编译时候拉取的，这个文件是由我修改的，这样是为了有时候出现一些小错误而我又可以解决的，又能在这个自定义文件内可以用命令解决的，我就可以在里面增加一个命令就搞定了，那就不需要你们自己动手搞，这样大大的方便了大家使用脚本，当然，前提是有错误的时候有人提出来，我也有时间弄才行，但总比没有的好，还有就是把定时更新插件也弄进去了，编译的时候要不要编译上就看你们自己了，不是什么机子都支持定时更新的（此次更新增加了所有的常用插件，为减少编译错误，请大家拉取最新仓库后，先SSH进去看过有没有你的插件，再来增加插件）
-
 - 《[把定时更新插件编译进固件的说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%E6%8F%92%E4%BB%B6.md)》
 
 - 弄了一个启动教程视频，mp4格式，存网盘了，需要的自己下载。《[谷歌云](https://drive.google.com/drive/folders/1WEUtVfiVtR5lyG8aX4RcDGdUPV6uMlxt?usp=sharing)》、《[百度（密码：apek）](https://pan.baidu.com/s/1RVi4nN8Y1ak9LTWzhV5bSQ)》、《[微云](https://share.weiyun.com/33SgJdCO)》
 
 - 请大家编译任何科学上网插件的时候看到有v2ray的请不要选择，因为xray已经兼容了v2ray的了，同时选择会出现编译错误。【[图片说明](https://github.com/danshui-git/shuoming/blob/master/cg.md)】
-
-- 制作了一个一键重新拉取我编译仓库的脚本，有需要的可以去看看。《[一键重新拉取编译仓库](https://github.com/281677160/sync-forks)》
-
-- 选择Lede_phicomm_n1或Project_phicomm_n1的机型文件夹编译的话，会自动编译出（ N1、微加云、贝壳云、我家云、S9xxx ）OpenWrt固件，固件已经自动打包好，把固件写入优盘启动再在openwrt里面用命令写入emmc即可【[写入emmc方法](https://github.com/danshui-git/shuoming/blob/master/n1.md)】
 
 - 除了编译 openwrt 机型外，其他机型都直接打入了常用插件了，不需要自己再拉取插件，除非我的插件包跟源码自带的都没有，你就自己添加吧 【[插件包](https://github.com/281677160/openwrt-package)】
 #
