@@ -14,6 +14,6 @@
 - 1、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm4.png" />
 - 2、
-# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm55.png" />
+# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm15.png" />
 - 3、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm6.png" />
