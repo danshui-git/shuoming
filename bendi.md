@@ -9,11 +9,9 @@
 ### 一键脚本:
 
 - 首次编译:
-```
-wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compile.sh && chmod -R +x compile.sh && bash compile.sh
+```wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compile.sh && chmod -R +x compile.sh && bash compile.sh
 ```
 
 - 二次编译:
-```
-bash openwrt/recompile.sh
+```bash openwrt/recompile.sh
 ```
