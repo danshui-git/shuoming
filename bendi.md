@@ -20,6 +20,8 @@ wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compi
 bash openwrt/recompile.sh
 ```
 
+- 编译完成后，固件在openwrt/bin/targets/对应机型文件夹里面
+
 ---
 
 问：进入一键本地编译系统后叫我选择编译源码，我该任何选择？<br />
