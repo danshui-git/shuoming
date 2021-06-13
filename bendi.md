@@ -20,7 +20,9 @@ wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compi
 bash openwrt/recompile.sh
 ```
 
+```
 - 编译完成后，固件在openwrt/bin/targets/对应机型文件夹里面
+```
 
 ---
 
