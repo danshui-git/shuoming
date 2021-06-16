@@ -8,7 +8,7 @@
 
 - 首次编译:
 ```
-wget -qO- compile.sh https://raw.githubusercontent.com/281677160/common/main/compile.sh | bash
+wget -O compile.sh https://github.com/281677160/common/raw/main/compile.sh && chmod +x compile.sh && bash compile.sh
 ```
 
 - 再次编译:
