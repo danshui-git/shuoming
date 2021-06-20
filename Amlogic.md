@@ -11,6 +11,16 @@
 
 #
 
-## luci-app-amlogic 插件使用概览         Screenshot / 截图
+## luci-app-amlogic 插件使用
+- ### 安装 OpenWrt
+
+从浏览器登录 OpenWrt → `使用默认账户登录进入 OpenWrt` → `系统菜单` → `晶晨宝盒` → `安装 OpenWrt`
+
+- ### 升级 OpenWrt 内核
+
+从浏览器登录 OpenWrt →  `使用账户登录进入 OpenWrt` → `系统菜单` → `晶晨宝盒` → `升级 OpenWrt`
+
+
+## Screenshot / 截图
 
 ![luci-app-amlogic](https://user-images.githubusercontent.com/68696949/121277810-f9ebd800-c903-11eb-9bf4-7c2b11f9a1d3.gif)
