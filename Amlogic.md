@@ -1,4 +1,4 @@
-## OpenWrt Firmware instructions
+## CPU型号跟机型的对照表
 
 | Model  | STB | OpenWrt Firmware |
 | ---- | ---- | ---- |
