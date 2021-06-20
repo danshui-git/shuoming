@@ -7,5 +7,5 @@
 
 - 一键提取命令:
 ```
-wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compile.sh && chmod +x compile.sh && bash compile.sh
+wget -O seedconfig.sh https://raw.githubusercontent.com/281677160/common/main/seedconfig.sh && bash seedconfig.sh
 ```
