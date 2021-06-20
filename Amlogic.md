@@ -1,6 +1,6 @@
 ## CPU型号跟机型的对照表
 
-| Model  | STB | OpenWrt Firmware |
+| 型号  | 机顶盒 | OpenWrt固件 |
 | ---- | ---- | ---- |
 | s905x3 | [X96](https://tokopedia.link/uMaH09s41db), [HK1](https://tokopedia.link/xhWeQgTuwfb), [H96](https://tokopedia.link/KuWvwoYuwfb), [Ugoos-X3](https://tokopedia.link/duoIXZpdGgb), [X96-Air](https://tokopedia.link/5WHiETbdGgb), [A95XF3-Air](https://tokopedia.link/ByBL45jdGgb) | openwrt_s905x3_v*.img |
 | s905x2 | [X96Max-4G](https://tokopedia.link/HcfLaRzjqeb), [X96Max-2G](https://tokopedia.link/ro207Hsjqeb) | openwrt_s905x2_v*.img |
