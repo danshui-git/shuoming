@@ -11,6 +11,6 @@
 
 #
 
-## Screenshot / 截图
+## luci-app-amlogic插件使用概览 Screenshot / 截图
 
 ![luci-app-amlogic](https://user-images.githubusercontent.com/68696949/121277810-f9ebd800-c903-11eb-9bf4-7c2b11f9a1d3.gif)
