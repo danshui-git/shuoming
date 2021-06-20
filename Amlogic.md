@@ -12,8 +12,8 @@
 #
 
 ## luci-app-amlogic 插件使用
-- ### 安装 OpenWrt
-从浏览器登录 OpenWrt  → `系统菜单` → `晶晨宝盒` → `安装 OpenWrt`
+
+- 安装固件：从浏览器登录 OpenWrt  → `系统菜单` → `晶晨宝盒` → `安装 OpenWrt`
 
 - ### 升级 OpenWrt 内核
 从浏览器登录 OpenWrt  → `系统菜单` → `晶晨宝盒` → `升级 OpenWrt`
