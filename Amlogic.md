@@ -11,9 +11,12 @@
 
 
 #
-- # [查看最新可用核心型号](https://github.com/281677160/openwrt-package/tree/kernel/kernel)
 #
 
+- ## [查看最新可用核心型号](https://github.com/281677160/openwrt-package/tree/kernel/kernel)
+
+#
+#
 
 - ## luci-app-amlogic 插件使用
 
