@@ -9,7 +9,9 @@
 | s912 | [H96-Pro-Plus](https://tokopedia.link/jb42fsBdGgb), Octopus-Planet | openwrt_s912_v*.img |
 | s905d | Phicomm-N1 | openwrt_s905d_v*.img |
 
-#
+
+---
+
 
 ## luci-app-amlogic 插件使用
 
