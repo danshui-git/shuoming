@@ -47,6 +47,9 @@ EOF
 
 ```
 
+#
+#
+
 - ## luci-app-amlogic 插件使用
 
 - 安装固件：从浏览器登录 OpenWrt  → `系统菜单` → `晶晨宝盒` → `安装 OpenWrt`
