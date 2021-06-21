@@ -25,6 +25,7 @@
 
 amlogic_modelw为机型设置，多机型需要中间加‘_’间隔，比如s922x_s912
 amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如5.12.12_5.4.127
+rootfs_size为rootfs分区大小，不能小于500
 所有CPU型号为：s905x3_s905x2_s905x_s905d_s922x_s912
 比如你要打包N1的固件，就选择s905d的，然后选择核心版本，核心版本上面的链接可以查看，多机型跟多核心都要中间加‘_’
 
@@ -33,6 +34,7 @@ amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如5.
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905d
 amlogic_kernel=5.12.12
+rootfs_size=1200
 EOF
 
 
@@ -40,6 +42,7 @@ EOF
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905x3_s905x2_s905x_s905d_s922x_s912
 amlogic_kernel=5.12.12_5.4.127
+rootfs_size=1200
 EOF
 
 
