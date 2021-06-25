@@ -77,6 +77,6 @@ sudo ./make -d -b s905d -k 5.12.12_5.4.127
 - 升级固件：从浏览器登录 OpenWrt  → `系统菜单` → `晶晨宝盒` → `升级 OpenWrt`
 #
 
-## Screenshot / 截图
+- ## Screenshot / 截图
 
 ![luci-app-amlogic](https://user-images.githubusercontent.com/68696949/121277810-f9ebd800-c903-11eb-9bf4-7c2b11f9a1d3.gif)
