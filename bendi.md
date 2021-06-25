@@ -19,7 +19,7 @@ bash openwrt/compile.sh
 ```
 ---
 
-- N1和晶晨系列编译成功后的一键打包命令:
+- N1和晶晨系列编译成功后的一键打包命令[更多说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md#%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%AF%91%E4%B8%80%E9%94%AE%E6%89%93%E5%8C%85%E5%91%BD%E4%BB%A4%E7%94%A8%E6%B3%95):
 ```
 cd openwrt && sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.12.13_5.4.128
 ```
