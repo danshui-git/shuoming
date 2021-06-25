@@ -5,10 +5,10 @@
 - github已筑墙,所以国内用户编译全程都需要梯子,请准备好梯子,使用大陆白名单或全局模式
 - 请使用 Ubuntu 18.04 LTS 或 Ubuntu 20.04 LTS
 - 使用非root用户登录您的ubuntu系统,执行以下代码即可:
-
-```
+.
+.
 - 首次编译:
-
+```
 wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compile.sh && chmod +x compile.sh && bash compile.sh
 ```
 
