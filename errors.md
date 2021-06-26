@@ -8,3 +8,4 @@
 - # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er2.png" />
 - 如果以上么发现缺依赖，或者说虽然有插件缺依赖，但是你又没选择这个插件，那就下载日志查看错误了，下载日志方法看下面图片
 - # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er4.png" />
+- 日志下载来后就查看日志了，日志都带有你编译的文件夹名字的，比如我这个编译的是[Lede_source],在日志的名字就是[编译 Lede_source.txt]
