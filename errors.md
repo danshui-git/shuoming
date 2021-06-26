@@ -6,3 +6,5 @@
 
 - 【开编译固件】步骤出现错误的话，首先就去【下载软件包】的步骤查看你编译进固件的插件是否缺依赖，比如以下图片
 - # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er2.png" />
+- 如果以上么发现缺依赖，或者说虽然有插件缺依赖，但是你又没选择这个插件，那就下载日志查看错误了，下载日志方法看下面图片
+- # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er1.png" />
