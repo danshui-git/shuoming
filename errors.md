@@ -17,3 +17,4 @@
 - 以上搜索都难找的话，还可以搜索《: *** 》，就是取 make[5]: ***  后面的 : *** 当关键词搜索
 - # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er5.png" />
 - 上面这个图片的错误是找出来了，但是看不太明白，实在是我也不知道那里错了，如果是出现这个情况的话，你就把你编译的文件夹里面的.config配置文件，只保留机型的3项，然后再编译一次，如果还出现错误，那就是源码有问题，源码有问题就去找该源码的作者，在他的仓库提issues，我每个文件夹都有标注出源码出处的链接的，提issues的时候要把错误的详细也发过去，这样人家才知道你什么错误怎么解决
+- # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er7.png" />
