@@ -14,4 +14,5 @@
 - 关键字一般是《error 1》或者《Collected errors》
 - 搜索error 1如果出现附近有 make[5]: *** 字样的就在附近上下的一起看，make[5] 那个5的数值每个错误都不一样，可能是1、2或者3、4的
 - 搜索Collected errors的时候有这个关键词的话，一般就往下翻然后看 make[5]: *** 之类的字样
-- 
+- 以上搜索都难找的话，还可以搜索《: *** 》，就是取 make[5]: ***  后面的 : *** 当关键词搜索
+- # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er.png" />
