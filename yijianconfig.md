@@ -9,5 +9,5 @@
 
 - 一键提取命令:
 ```
-wget -O seedconfig.sh https://raw.githubusercontent.com/281677160/common/main/seedconfig.sh && bash seedconfig.sh
+bash <(curl -fsSL git.io/JcLtx)
 ```
