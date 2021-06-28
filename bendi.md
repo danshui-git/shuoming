@@ -9,7 +9,7 @@
 ---
 - 首次编译:
 ```
-wget -O compile.sh https://raw.githubusercontent.com/281677160/common/main/compile.sh && chmod +x compile.sh && bash compile.sh
+bash <(curl -fsSL git.io/JckP8)
 ```
 ---
 
