@@ -80,9 +80,9 @@ cd openwrt && sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.12.13_
 #
 ---
 #
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi1.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi1.png" />
 #
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi2.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi2.png" />
 #
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi3.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi3.png" />
 ---
