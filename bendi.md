@@ -24,13 +24,6 @@ bash openwrt/compile.sh
 cd openwrt && sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.12.13_5.4.128
 ```
 ---
-#
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi1.png" />
-#
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi2.png" />
-#
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi3.png" />
----
 
 问：进入一键本地编译系统后叫我选择编译源码，我该任何选择？<br />
 答：我[这里](https://github.com/danshui-git/shuoming/blob/master/%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E6%96%B0%E8%84%9A%E6%9C%AC.md)作了简单介绍，当然本地编译是不支持自建文件夹来增加机型的，云编译你们拉取了我仓库后可以随便自建。<br />
@@ -82,3 +75,14 @@ cd openwrt && sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.12.13_
 <5> 第四个机场4.99元买的一个月，这个机场很诡异的，下载源码的时候经常少文件夹的，比如源码里面一起是10个文件夹它经常就下到5-6个，下载我插件包的时候也是这样，下载不完整，不是少这就是少那的，用这个机场来搞本地编译你会疯的，因为我做了判断下载错误就停止，但是这个机场节点下载文件是少了，判断又判断他是成功下载了，所以你会误认为你机场节点很好，但是一编译就100%错误的，呵呵。<br />
 
 <6> 本人前后差不多用了10个机场来测试本地编译，真正可以舒服编译的只有2个，所以我真不推荐本地编译，云编译多省事。<br />
+#
+#
+#
+---
+#
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi1.png" />
+#
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi2.png" />
+#
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi3.png" />
+---
