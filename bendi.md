@@ -24,6 +24,13 @@ bash openwrt/compile.sh
 cd openwrt && sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.12.13_5.4.128
 ```
 ---
+#
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi1.png" />
+#
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi2.png" />
+#
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/bendi3.png" />
+---
 
 问：进入一键本地编译系统后叫我选择编译源码，我该任何选择？<br />
 答：我[这里](https://github.com/danshui-git/shuoming/blob/master/%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E6%96%B0%E8%84%9A%E6%9C%AC.md)作了简单介绍，当然本地编译是不支持自建文件夹来增加机型的，云编译你们拉取了我仓库后可以随便自建。<br />
