@@ -1,6 +1,6 @@
 # 新增机型文件夹教程
 
-- 按图片教程应该都能学会了，图片之后还有最重要的一步的，我在下面文字说明
+- 按图片教程应该都能学会了
 
 #
 ! <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck0.png" />
