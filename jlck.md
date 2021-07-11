@@ -25,3 +25,7 @@
 - 看到文件夹后，你打开文件夹，会发现少了一份 .config 的配置文件的，对的，这个文件传不上去的
 
 - 这个配置文件要自己建立
+#
+! <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck8.png" />
+#
+! <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck9.png" />
