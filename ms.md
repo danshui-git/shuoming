@@ -24,11 +24,11 @@
         SCKEY: ${{ secrets.SCKEY }}
         text: 主人${{matrix.target}}编译开始啦
         desp: 主人您要编译的[${{matrix.target}}]固件正在努力耕耘中(${{env.CangKu}}仓库的#${{env.Run_number}}号),请耐心等待......
+```        
         
         
         
-        
-        
+```yml  
     - name: 微信通知
       uses: emon100/Action-Serverchan@v2
       if: steps.organizer.outputs.status == 'success' && env.SERVERCHAN_SCKEY == 'true'
