@@ -3,7 +3,7 @@
 - 2、发布密匙生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（REPO_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
 #
 #
-- 1、微信通知也需要一个密匙，[点击这里](http://sc.ftqq.com/3.version)，登录Server酱，然后在里面点击页面上的[登入网站],登陆成功后点击[SCKEY]，就能看到密匙了，比如（SCU107710Tfc3dbee243474cbxxxxxxxx14e1c23835f57bbe272a69）,复制下来保存好，因为如果你有同一个账号多个仓库需要微信通知的话也是需要用上的，再点击页面上的[微信推送]扫二维码加公众号
+- 1、微信通知也需要一个密匙，[点击这里](https://sct.ftqq.com)，登录Server酱，然后点击[消息通道]扫码[登入网站],按说明获取密匙,一般使用企业微信的方法获取密匙,需要注册一下企业微信,里面都有说明的了,你们自己研究吧,新版的微信通知弄的挺麻烦的,不过也是一次性的问题,弄好就行了,还有一个新版微信通知一天只能发送5条消息,要想多发的话得购买会员
 #
 - 2、通知密匙生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（SCKEY）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
 #
@@ -37,3 +37,12 @@
         text: 恭喜主人${{matrix.target}}固件编译成功！
         desp: 我亲爱的主人您使用${{matrix.target}}文件夹编译的[ ${{ env.CODE }}-${{ env.TARGET_PROFILE }} ]固件(${{ env.CangKu }}仓库的#${{ env.Run_number }}号)顺利编译完成了！
 ```
+#
+#
+# - 把电报机器人通知改成微信通知方法
+#
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/thm1.png" />
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/thm2.png" />
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/thm3.png" />
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/thm4.png" />
+<img src="https://github.com/danshui-git/shuoming/blob/master/doc/thm5.png" />
