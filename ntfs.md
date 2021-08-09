@@ -7,7 +7,7 @@
 ```
 mkdir -p files/etc/hotplug.d/block && svn co https://github.com/281677160/openwrt-package/branches/usb/block files/etc/hotplug.d/block
 ntfs="DEFAULT_PACKAGES += usbutils fdisk badblocks kmod-usb-ohci-pci kmod-usb-uhci kmod-usb-hid e2fsprogs wpad \
-kmod-usb2-pci kmod-usb3 kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-ext4 kmod-fs-vfat "
+kmod-usb2-pci kmod-usb3 kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-ext4 ntfs-3g kmod-fs-vfat "
 sed -i "s/DEFAULT_PACKAGES += /$ntfs/" target/linux/*/Makefile
 ```
 ---
