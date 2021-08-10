@@ -6,11 +6,11 @@
 Base system —>  <*>block-mount
 
 2.
-Utilities  --->   <*> usbutils
 Utilities  ---> disc --->   <*> fdisk
+Utilities  --->   <*> usbutils
 
-Utilities —> Filesystem —>  <*> ntfs-3g
 Utilities —> Filesystem —>  <*> badblocks
+Utilities —> Filesystem —>  <*> ntfs-3g
 
 3.
 Kernel modules —> Block Devices —>  <*>kmod-scsi-core
@@ -30,7 +30,7 @@ Kernel modules —> Filesystems —>  <*> kmod-fs-vfat
 Kernel modules —> Filesystems —>  <*> kmod-fuse  
 请注意绝对不要选择kmod-fs-ntfs，否则NTFS格式U盘是只读模式
 
-以上有些已源码已经默认选择了，有些没有选，我都列出来吧
+以上选择每个机型都不一样，有些已经默认选择了，有些没有选，反正你们由上至下的一个个选择就好了，有就不管，没有就选上
 
 
 4.然后复制下面的命令放入diy-part.sh里面保存就可以了
