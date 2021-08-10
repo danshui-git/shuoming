@@ -35,9 +35,8 @@ Kernel modules —> Filesystems —>  <*> kmod-fuse
 
 4.然后复制下面的命令放入diy-part.sh里面保存就可以了
 
-```
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/block/10-mount > files/etc/hotplug.d/block/10-mount
-```
+
 
 5.安装好固件后，插入U盘或移动硬盘 再次重启路由器 在openwrt的‘系统’-->挂载点 查看设备
 
