@@ -4,7 +4,7 @@
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/block/10-mount > files/etc/hotplug.d/block/10-mount
 
-2、然后启动编译，开启SSH连接服务器配置固件，选取如下
+2、打开SSH连接服务器配置固件的开关，然后启动编译，连接SSH进入配置固件，选取如下
 
 3、
 Base system —>  <*>block-mount
