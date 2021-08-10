@@ -19,10 +19,10 @@ Kernel modules —> Block Devices —>  <*>kmod-scsi-core
 Kernel modules —> USB Support —>  <*> kmod-usb-core
 Kernel modules —> USB Support —>  <*> kmod-usb-ohci
 Kernel modules —> USB Support —>  <*> kmod-usb-uhci
-Kernel modules —> USB Support —>  <*> kmod-usb2    ##usb2.0
-Kernel modules —> USB Support —>  <*> kmod-usb3    ##usb3.0
 Kernel modules —> USB Support —>  <*> kmod-usb-storage
 Kernel modules —> USB Support —>  <*> kmod-usb-storage-extras
+Kernel modules —> USB Support —>  <*> kmod-usb2    ##usb2.0
+Kernel modules —> USB Support —>  <*> kmod-usb3    ##usb3.0
 
 3.
 Kernel modules —> Filesystems —>  <*> kmod-fs-ext4
