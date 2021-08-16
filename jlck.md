@@ -11,7 +11,7 @@
 #
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck3.png" />
 #
-- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck4.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck40.png" />
 #
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jlck5.png" />
 #
