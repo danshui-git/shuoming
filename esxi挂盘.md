@@ -19,7 +19,9 @@ blkid                # 第四步，输入命令查看挂载盘的UUID
 
 vi /etc/fstab        # 第五步，输入命令后增加挂载盘的UUID
 
-UUID=38b401e1-f528-480b-98a5-83a38c12c81c /mnts/disk ext4 defaults,nofail 0 0      # 输入命令后增加挂载盘的UUID格式，38b401e1-f528-480b-98a5-83a38c12c81cs是UUID，/mnts/disk是挂载路径，你自己修改成你喜欢挂载的
+UUID=38b401e1-f528-480b-98a5-83a38c12c81c /mnts/disk ext4 defaults,nofail 0 0      
+
+ 输入命令后增加挂载盘的UUID格式，38b401e1-f528-480b-98a5-83a38c12c81cs是UUID，/mnts/disk是挂载路径，你自己修改成你喜欢挂载的
 
 mount -a          # 第六步，输入命令
 
