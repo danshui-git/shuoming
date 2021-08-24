@@ -2,6 +2,8 @@
 
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/gua1.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/gua2.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/gua3.png" />
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/gua4.png" />
 
 #
 #
@@ -20,3 +22,5 @@ UUID=38b401e1-f528-480b-98a5-83a38c12c81c /mnts/disk ext4 defaults,nofail 0 0   
 mount -a          # 第五步，输入命令
 
 reboot           # 第六步，重启系统
+
+df -h            # 重启系统后，输入命令查看挂载成功没
