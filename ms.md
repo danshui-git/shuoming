@@ -11,8 +11,6 @@
 #
 - ### 发布密匙获取跟存放密匙的我做了图片教程，微信的密匙你们按上面的获取就可以了，存放是一样的。《[图片教程](https://github.com/danshui-git/shuoming/blob/master/jm.md)》
 #
-#
-<img src="https://github.com/danshui-git/shuoming/blob/master/doc/tz11.png" />
 
 #
 
