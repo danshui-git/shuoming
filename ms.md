@@ -2,12 +2,14 @@
 #
 - 2、发布密匙生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（REPO_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
 ---
-#
 - 1、微信通知也需要一个密匙，[点击这里](https://sct.ftqq.com)，登录Server酱，然后点击[消息通道]扫码[登入网站],按说明获取密匙,一般使用企业微信的方法获取密匙,需要注册一下企业微信,里面都有说明的了,你们自己研究吧,新版的微信通知弄的挺麻烦的,不过也是一次性的问题,弄好就行了,还有一个新版微信通知一天只能发送5条消息,要想多发的话得购买会员
 #
 - 2、通知密匙生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（SCKEY）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
 ---
-
+- 1、pushplus推送，[点击这里](http://www.pushplus.plus/push1.html)，微信扫码登录，就可以看到你的token了
+#
+- 2、复制好pushplus你的token后，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（PUSH_PLUS_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
+#
 - 两个密匙都正确使用后就可以使用微信通知跟发布功能了，友情提示：密匙注意不要随便泄露
 #
 - ### 发布密匙获取跟存放密匙的我做了图片教程，微信的密匙你们按上面的获取就可以了，存放是一样的。《[图片教程](https://github.com/danshui-git/shuoming/blob/master/jm.md)》
