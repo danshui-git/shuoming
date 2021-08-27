@@ -1,4 +1,4 @@
-# 《[build-actions仓库的专用说明文件](https://github.com/281677160/build-actions)》
+# [build-actions仓库的专用说明文件](https://github.com/281677160/build-actions)
 
 # 择要
 
