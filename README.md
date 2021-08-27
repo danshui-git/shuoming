@@ -1,3 +1,5 @@
+# 《[build-actions仓库的专用说明文件](https://github.com/281677160/build-actions)》
+
 # 择要
 
 - ### 最近启动编译后，运行至开始编译步骤莫名的自动停止编译的，这个是github的动作，因为云编译浪费资源厉害，所以github要出手，一般在日志或者Actions会出现类似如下语句
