@@ -9,7 +9,7 @@
 
 - 3、 找到你的TELEGRAM_CHAT_ID:
 
--  如果前面你已经点了你自己创建的机器人的名字 danshui_bot 链接来发送过一次信息了就继续下面步骤，如果没有请去点击发送一次
+-  如果前面你已经点了你自己创建的机器人的名字 danshui_bot 链接来发送过一次信息了就继续下面步骤，如果没有请去点击发送一次，或者发送多次信息，这个关系到获取ID的问题。
 
 -  将前面获得的TELEGRAM_BOT_TOKEN替换掉下面这个url中的XXYY部分,
 -     https://api.telegram.org/botXXYY/getUpdates
