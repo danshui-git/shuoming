@@ -13,7 +13,7 @@
 #
 #
 
-- ## [查看最新可用核心型号](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
+- ## [点击查看最新可用内核版本](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
 
 #
 #
