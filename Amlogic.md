@@ -13,9 +13,7 @@
 #
 #
 
-- # 内核是时时变动的，所以选择内核之前，一定要在这里查看一下当前可用内核
-
-- ## [点击这里可查看最新可以使用的内核版本](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
+- ## [内核是时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
 
 #
 #
