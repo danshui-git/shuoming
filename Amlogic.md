@@ -13,6 +13,8 @@
 #
 #
 
+- # 内核是时时变动的，所以选择内核之前，一定要在这里查看一下当前可用内核
+
 - ## [点击这里可查看最新可以使用的内核版本](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
 
 #
@@ -24,18 +26,18 @@
 
 
 amlogic_modelw为机型设置，多机型需要中间加‘_’间隔，比如 s922x_s912
-amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如 5.12.12_5.4.127
+amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如 5.10.70_5.4.150
 rootfs_size为rootfs分区大小，不能小于500，不懂就默认不要修改。
 所有CPU型号为：s905x3_s905x2_s905x_s905d_s922x_s912
 比如你要打包N1的固件，就选择s905d的，然后选择核心版本，核心版本上面的链接可以查看，多机型跟多核心都要中间加‘_’。
-amlogic_kernel内核如果保持 5.12.12_5.4.127 不修改的话，每次编译都会默认同步作者推荐的最新版本。
+amlogic_kernel内核如果保持 5.10.70_5.4.150 不修改的话，每次编译都会默认同步作者推荐的最新版本。
 云编译的时候可以在编译信息查看到你编译的内核版本详情
 
 
 比如这样的，就是单机型+单核心组合打包
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905d
-amlogic_kernel=5.12.12
+amlogic_kernel=5.10.70
 rootfs_size=1200
 EOF
 
@@ -43,7 +45,7 @@ EOF
 比如这样的，就是多机型+多核心组合打包，自由组合。
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905x3_s905x2_s905x_s905d_s922x_s912
-amlogic_kernel=5.12.12_5.4.127
+amlogic_kernel=5.10.70_5.4.150
 rootfs_size=1200
 EOF
 
@@ -61,13 +63,13 @@ EOF
 在Ubuntu确认你是进入了openwrt文件夹，如果不是的话就使用 cd openwrt 命令进入
 
 比如多个机型内核：
-sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.12.12_5.4.127
+sudo ./make -d -b s905x3_s905x2_s905x_s905d_s922x_s912 -k 5.10.70_5.4.150
 
 比如单个机型内核：
-sudo ./make -d -b s905d -k 5.12.12
+sudo ./make -d -b s905d -k 5.10.70
 
 比如单个机型双内核：
-sudo ./make -d -b s905d -k 5.12.12_5.4.127
+sudo ./make -d -b s905d -k 5.10.70_5.4.150
 ```
 
 
