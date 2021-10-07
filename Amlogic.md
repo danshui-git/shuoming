@@ -13,7 +13,7 @@
 #
 #
 
-- ## [内核是时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
+- ## [内核是时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核，随便搞的话，没有该内核，打包就失败，在编译脚本那里就会出现‘整理固件文件夹’步骤错误](https://github.com/ophub/amlogic-s9xxx-openwrt/tree/main/amlogic-s9xxx/amlogic-kernel)
 
 #
 #
