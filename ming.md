@@ -131,17 +131,18 @@
 
       git clone https://github.com/281677160/openwrt-package package/danshui
       
- - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，存放的时候要不要建立一个文件夹来存放呢？如果需要的话，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名
+ - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名，如果你拉的是单独插件的话，一般来说改成插件名字就可以了，比如拉取的是ssr pius就是这样写的，package/luci-app-ssr-plus
 
-- 还有就是拉取别人插件的时候要注意看人家写的内容，有没有需要什么依赖的，需要的话要一起拉取了，要不然拉了也是没用的，不过有些插件的依赖我都直接放插件包了,不需要另外拉取依赖。
+- 还有就是拉取别人插件的时候要注意看人家写的内容，有没有需要什么依赖的，需要的话要一起拉取了，要不然拉了也是没用的。
 
-- 比如：
+- 下面就列出一下示例：
 
       git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
       git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
       git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
       git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
       git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
+      git clone https://github.com/281677160/openwrt-package package/danshui
  
  - 上面那样拉取的是别人主仓库，怎么看是不是主仓库呢？就是用链接打开后直接能见的就是主仓库，还可以有分支的，如果要拉取分支怎么办呢？在链接前面加个分支号就好了
  
@@ -154,11 +155,11 @@
 ---
 # 第6条
 #  
-- 单独拉取特定的插件或者文件，比如单独拉取插件包的luci-app-clash
+- 单独拉取特定的插件，比如单独拉取我插件包的luci-app-clash
 
       svn co https://github.com/281677160/openwrt-package/trunk/luci-app-clash package/luci-app-clash
       
-- 这个关系就跟上面差不多了，就不多说了，重点要说的是这个链接是有改变的，怎么改变法呢？整个链接真正的链接看下面的，这个原始链接怎么来呢?比如你在别人的仓库看到某个插件，再点开那个插件的文件夹，然后在浏览器复制完整链接就是了。如果有分支的，你想要分支的插件，就先选择了分支再打开插件文件夹然后在复制链接就可以了。
+- 这个关系就跟上面差不多了，也是要地址，路径的，重点要说的是这个链接是有改变的，怎么改变法呢？整个链接真正的链接看下面的，这个原始链接怎么来呢?比如你在别人的仓库看到某个插件，再点开那个插件的文件夹，然后在浏览器复制完整链接就是了。如果有分支的，你想要分支的插件，就先选择了分支再打开插件文件夹然后在复制链接就可以了。
 
       https://github.com/281677160/openwrt-package/tree/master/luci-app-clash  <--- 在浏览器上复制出来的真正链接
       
@@ -168,6 +169,6 @@
      
       https://github.com/281677160/openwrt-package/tree/19.07/luci-app-eqos   <--- 在浏览器上复制出来的真正链接
       
-      https://github.com/281677160/openwrt-package/branches/19.07/luci-app-eqos   <--- 用的时候修改过的链接
+      https://github.com/281677160/openwrt-package/branches/19.07/luci-app-eqos   <--- 把链接修改好，把tree/19.07改成branches/19.07，然后前面加svn co 后面加路径
 
-      svn co https://github.com/281677160/openwrt-package/branches/19.07/luci-app-eqos package/luci-app-eqos  <--- 完整拉取链接
+      svn co https://github.com/281677160/openwrt-package/branches/19.07/luci-app-eqos package/luci-app-eqos  <--- 然后就变成这个完整拉取链接
