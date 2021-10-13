@@ -24,11 +24,11 @@
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/05.png" />
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/06.png" />
 -
-- # 操作无非就是键盘上下键，确认的话有些按回车，有些按空格键，退出就选 EXIT 按回车，如果没这个选择就随便选一个项目按回车确认就退出了
-- 
-- # 选择插件的话，按 Y 就是对插件选择，按了后你就看到插件名字前面多了个 * 的，按 N 就是取消，按 M 就是编译出IPK但是不把这个插件编译进固件
--
-- # 都选择完毕后，就一路的选择 EXIT 按回车退出就可以了，看到 YES OR NO 的选择的时候默认YES保存配置即可
+- ### 操作无非就是键盘上下键，确认的话有些按回车，有些按空格键，退出就选 EXIT 按回车，如果没这个选择就随便选一个项目按回车确认就退出了
+
+- ### 选择插件的话，按 Y 就是对插件选择，按了后你就看到插件名字前面多了个 * 的，按 N 就是取消，按 M 就是编译出IPK但是不把这个插件编译进固件
+
+- ### 都选择完毕后，就一路的选择 EXIT 按回车退出就可以了，看到 YES OR NO 的选择的时候默认YES保存配置即可
 -
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/07.png" />
 #
