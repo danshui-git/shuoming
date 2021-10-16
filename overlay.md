@@ -1,4 +1,4 @@
-# 编译时修改overla空间方法
+# 编译时选择固件格式和修改overla空间方法
 #
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/ov1.png" />
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/ov3.png" />
