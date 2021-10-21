@@ -2,5 +2,5 @@
 !<img src="https://github.com/danshui-git/shuoming/blob/master/doc/winscp1.png" />
 #
 #
-# 安装工具后如果没桌面快捷
-!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/winscp1.png"  />
+# 使用
+!<img src="https://github.com/danshui-git/shuoming/blob/master/doc/winscp2.png"  />
