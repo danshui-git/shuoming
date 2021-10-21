@@ -5,9 +5,9 @@
 - 2、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm1.png" />
 - 3、
-# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm2.png" />
-- 4、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm31.png" />
+- 4、
+# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm3.png" />
 #
 - # 获取密匙后，我们现在去存放密匙
 #
