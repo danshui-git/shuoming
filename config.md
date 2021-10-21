@@ -5,9 +5,10 @@
 - 《[youtube大神的固件配置视频教程](https://www.youtube.com/watch?v=jEE_J6-4E3Y&t=24s)》
 - 《[插件中文名称对照](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)》
 - 《[youtube大神的网卡、无线网卡配置视频教程](https://www.youtube.com/watch?v=X9v6Nd3wxkk)》
--  [下载.config配置教程](https://github.com/danshui-git/shuoming/blob/master/4%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD.md)
+- 《[下载.config配置教程](https://github.com/danshui-git/shuoming/blob/master/4%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD.md)》
+- 在获得对应源码的配置文件后，如果你没设置密匙自动替换的话，就手动下载，然后复制内容粘贴到你对应机型文件的.config里面
 
-- 放视频在这里只是给大家了解一下怎么修改机型跟选择插件而已，不是叫大家对着视频照着干，千万不要这样做，你就看会什么东西在哪个位置就好了。
+- 首先声明，所有视频都不是我做的，放视频在这里只是给大家了解一下怎么修改机型跟选择插件而已，不是叫大家对着视频照着干，千万不要这样做，你就看会什么东西在哪个位置就好了。
 
 ---
 
