@@ -2,6 +2,10 @@
 
 - 在线获取.config就跟正常编译一样的，首先选择好你要编译的源码，然后打开SSH开关，或者[启动的时候顺手打开](https://github.com/danshui-git/shuoming/blob/master/doc/sd1052.png)（推荐这个方式），然后运行脚本，进入SSH配置好固件的配置，然后运行到上传配置.config文件的步骤完毕，就关闭这次的编译，等编译完全关闭后，就可以去下载.config的文件来覆盖到你对应源码的.config里面了，然后再启动编译就不会莫名的给停止编译了，如果你是在settings.ini文件里打开SSH的话，启动编译之前记得去关闭一下
 
+---
+
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/con7.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/con6.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/con5.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/con3.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/con4.png" />
