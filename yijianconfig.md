@@ -9,5 +9,5 @@
 
 - 一键提取命令:
 ```
-bash <(curl -fsSL git.io/JcGDx)
+bash <(curl -fsSL git.io/makeconfig.sh)
 ```
