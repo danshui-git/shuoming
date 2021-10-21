@@ -1,6 +1,6 @@
 # 在线获取.config配置文件
 
-- 在这里您可能需要用到《[SSH连接教程](https://github.com/danshui-git/shuoming/blob/master/3SSH%E8%BF%9E%E6%8E%A5%E8%AF%B4%E6%98%8E.md)》和
+- ## 在这里您可能需要用到《[SSH连接教程](https://github.com/danshui-git/shuoming/blob/master/3SSH%E8%BF%9E%E6%8E%A5%E8%AF%B4%E6%98%8E.md)》和
 
 ---
 
