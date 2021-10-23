@@ -87,3 +87,7 @@ sudo ./make -d -b s905d -k 5.10.70_5.4.150
 - ## Screenshot / 截图
 
 ![luci-app-amlogic](https://user-images.githubusercontent.com/68696949/121277810-f9ebd800-c903-11eb-9bf4-7c2b11f9a1d3.gif)
+
+- 在 TF/USB 中使用 OpenWrt
+- 从浏览器访问 OpenWrt 的默认 IP: 192.168.1.1 → 使用默认账户登录进入 OpenWrt → 系统菜单 → TTYD 终端 → 输入命令 →  `openwrt-tf`
+- 激活剩余空间后，支持在 TF/USB 中升级内核和 OpenWrt 系统。
