@@ -1,6 +1,6 @@
-# 启动编译和SSH连接配置固件教程
+- # 启动编译和SSH连接配置固件教程
 
-- ### 开机SSH连接有两种方法，一个是在您编译的对应机型文件夹里面的settings.ini修改，一个是这里启动之时开启一下，这里开启更方便
+- ### 开启SSH连接有两种方法，一个是在您编译的对应机型文件夹里面的settings.ini修改，一个是这里启动之时开启一下，这里开启更方便
 
 - ## 在这里您可能需要用到以下教程
 - 《[用putty工具连接SSH，图文教程](https://github.com/danshui-git/shuoming/blob/master/3SSH%E8%BF%9E%E6%8E%A5%E8%AF%B4%E6%98%8E.md)》
