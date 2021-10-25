@@ -1,4 +1,4 @@
-#### 电报机器人推送消息设置
+- # 电报机器人推送消息设置
 
 - 1、 首先你得有个[telegram](https://telegram.org/)，推送消息需要 TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID
 
@@ -30,37 +30,11 @@
 
 7、设置完毕后如果打开了SSH连接的话，到了SSH这个步骤会自动把代码发送给你，也可以用于编译前后的信息提示。
 
+---
+
+- # pushplus推送获取方式
 
 
+- 1、pushplus推送，[点击这里](http://www.pushplus.plus/push1.html)，微信扫码登录，就可以看到你的token了
 #
-#
-#
-#
-#
-##### 编译增加电报机器人信息推送
-###### 有需要的你们自己加上替换微信通知的，开关还是使用微信通知的开关，这个机器人推送消息比微信的好多了，没做好token跟id也不会出现错误而停止编译的
-
-```yaml
-
-    - name: 电报机器人信息通知
-      run: |
-        if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
-          curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=🎉 主人：
-          您正在使用【${{matrix.target}}】文件夹编译固件中(${{env.CangKu}}仓库的#${{env.Run_number}}号),请耐心等待...... 😋" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
-        fi
-
-
-
-
-
-
-    - name: 电报机器人信息通知
-      run: |
-        if [[ "${BOT}" == "TRUE" ]]; then
-          if [[ "${SERVERCHAN_SCKEY}" == "true" ]]; then
-            curl -k --data chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" --data "text=我亲爱的✨主人✨：
-            您使用【${{matrix.target}}】文件夹编译的[${{ env.CODE }}-${{ env.TARGET_PROFILE }}]固件(${{env.CangKu}}仓库的#${{env.Run_number}}号)顺利编译完成了！💐" "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage"
-          fi
-        fi
-
-```
+- 2、复制好pushplus你的token后，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（PUSH_PLUS_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
