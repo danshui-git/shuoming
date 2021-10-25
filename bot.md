@@ -1,4 +1,4 @@
-- # 电报机器人推送消息设置
+- # 电报机器人推送，TOKEN跟ID获取方式
 
 - 1、 首先你得有个[telegram](https://telegram.org/)，推送消息需要 TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID
 
@@ -30,9 +30,11 @@
 
 7、设置完毕后如果打开了SSH连接的话，到了SSH这个步骤会自动把代码发送给你，也可以用于编译前后的信息提示。
 
+#
 ---
+#
 
-- # pushplus推送获取方式
+- # pushplus推送，TOKEN的获取方式
 
 
 - 1、pushplus推送，[点击这里](http://www.pushplus.plus/push1.html)，微信扫码登录，就可以看到你的token了
