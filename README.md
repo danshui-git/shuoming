@@ -76,10 +76,10 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 - 《[修改文件跟删除仓库](https://github.com/danshui-git/shuoming/blob/master/%E5%88%A0%E9%99%A4%E5%92%8C%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6.md)》
 
 #
-# 捐赠
-- 如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善
+- # 捐赠
+- 如果你觉得此项目对你有帮助，捐助我一杯咖啡或者一个鸡腿呗，感谢！！！
 
-微信
+- 微信
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/weixin2.png" />
 #
 #
