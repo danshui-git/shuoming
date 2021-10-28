@@ -11,7 +11,7 @@
 - 首先声明，所有视频都不是我做的，放视频在这里只是给大家了解一下怎么修改机型跟选择插件而已，不是叫大家对着视频照着干，千万不要这样做，你就看会什么东西在哪个位置就好了。
 
 ---
-
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi0.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi1.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi2.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi3.png" />
