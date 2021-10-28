@@ -80,7 +80,7 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 - 如果你觉得此项目对你有帮助，捐助我一杯咖啡或者一个鸡腿呗，感谢！！！
 
 -微信-
-# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/weixin3.png" />
+# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/weixin4.png" />
 #
 #
 - ## 鸣谢
