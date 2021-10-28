@@ -82,7 +82,7 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 -微信
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/weixin.png" />
 - 支付宝
-- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/zhifubo.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/zhufubo.png" />
 #
 #
 - ## 鸣谢
