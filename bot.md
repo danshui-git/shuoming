@@ -7,9 +7,7 @@
 
 - 这串东西不应泄露给他人,否则被人滥用的话会导致该bot被禁止.
 
-### - 3、 找到你的TELEGRAM_CHAT_ID:
-
-- 找TELEGRAM_CHAT_ID有两种方法
+### - 3、 找到你的 TELEGRAM_CHAT_ID ，找TELEGRAM_CHAT_ID有两种方法
 
 ### - 第一种方法
 - 第一种就是在你的Telegram搜索 @Get My ID ，就跟加好友一样，搜索出来有好几个机器人的，随便点一个，然后聊天窗口那里点开始聊天，就能显示出你的TELEGRAM_CHAT_ID
