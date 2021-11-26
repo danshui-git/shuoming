@@ -131,7 +131,7 @@
 
       https://github.com/281677160/openwrt-package
       
- - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名，如果你拉的是单独插件的话，一般来说改成插件名字容易记忆，比如拉取的是ssr pius就是这样写的，package/luci-app-ssr-plus
+ - 这个其实很好理解的 git clone 就是下载，下载东西肯定得有地址啊，https://github.com/281677160/openwrt-package 就是地址，下载了后要存放在什么地方呢？ 源码的package文件夹就是存放地方，就在package后面跟一个文件夹名字，名字你随便改，不过不能跟源码里面的文件夹重名，如果你拉的是单独插件的话，一般来说改成插件名字容易记忆，比如拉取的是ssr plus就是这样写的，package/luci-app-ssr-plus
 
 - 还有就是拉取别人插件的时候要注意看人家写的内容，有没有需要什么依赖的，需要的话要一起拉取了，要不然拉了也是没用的。
 
