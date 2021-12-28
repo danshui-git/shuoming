@@ -26,3 +26,4 @@
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi11.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi12.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi13.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi14.png" />
