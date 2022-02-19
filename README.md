@@ -15,7 +15,7 @@
 - [Tianling_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-18.06)，Luci版本=18.06、内核版本=4.19和4.14
 - [openwrt_amlogic](https://github.com/coolsnowwolf/lede)，N1和晶晨系列CPU盒子专用（Luci版本=18.06、内核版本=5.4和5.10）
 
-- openwrt_amlogic文件夹，编译S905x3, S905x2, S922x, S905x, S905d, s912《[自动打包您所需的固件说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
+- openwrt_amlogic文件夹，编译s905x3_s905x2_s905x_s905w_s905d_s922x_s912《[自动打包您所需的固件说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
 
 - 源码已直接加入了常用插件了，您要自己拉取插件之前，请先看看【[常用插件列表](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)】，是否带了你的插件，或者是相同功能的插件。
 
