@@ -21,10 +21,6 @@
 #
 #
 
-- ## 打包固件机型和核心组合方法：
-```
-机型和核心组合设置在：build/openwrt_amlogic/diy-part.sh
-
 
 amlogic_modelw为机型设置，多机型需要中间加‘_’间隔，比如 s922x_s912
 amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如 5.10.100_5.4.180
@@ -33,45 +29,6 @@ rootfs_size为rootfs分区大小，不能小于500，不懂就默认不要修改
 比如你要打包N1的固件，就选择s905d的，然后选择核心版本，核心版本上面的链接可以查看，多机型跟多核心都要中间加‘_’。
 amlogic_kernel内核如果保持 5.10.100_5.4.180 -a true 不修改的话，每次编译都会默认同步作者推荐的最新版本。
 后面多加的 -a true 的意思就是自动采用同系列最新版本内核。
-
-
-比如这样的，就是单机型+单核心组合打包
-cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
-amlogic_model=s905d
-amlogic_kernel=5.10.70
-rootfs_size=1200
-EOF
-
-
-比如这样的，就是多机型+多核心组合打包，自由组合。
-cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
-amlogic_model=s905x3_s905x2_s905x_s905w_s905d_s922x_s912
-amlogic_kernel=5.10.100_5.4.180 -a true
-rootfs_size=960
-EOF
-
-
-请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
-要根据自己个人需求组合，要不然打包的固件太多，服务器空间不够用就打包失败了。
-```
-
----
-
-- ## 本地编译一键打包命令用法：
-```
-如果用的是我的一键本地编译脚本的话，一键打包命令也差不多意思，内核跟机型组合自己修改好就行了。
-
-在Ubuntu确认你是进入了openwrt文件夹，如果不是的话就使用 cd openwrt 命令进入
-
-比如多个机型内核：
-sudo ./make -d -b s905x3_s905x2_s905x_s905w_s905d_s922x_s912 -k 5.10.100_5.4.180 -a true
-
-比如单个机型内核：
-sudo ./make -d -b s905d -k 5.10.100
-
-比如单个机型双内核：
-sudo ./make -d -b s905d -k 5.10.100_5.4.180
-```
 
 
 #
