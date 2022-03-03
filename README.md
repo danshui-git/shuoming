@@ -9,7 +9,7 @@
 ---
 - # 介绍
 ---
-- [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.4和5.10
+- [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.10和5.15
 - [Lienol_source](https://github.com/Lienol/openwrt/tree/main)，Luci版本=Master、内核版本=5.10
 - [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)，Luci版本=21.02、内核版本=5.4
 - [Tianling_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-18.06)，Luci版本=18.06、内核版本=4.19和4.14
