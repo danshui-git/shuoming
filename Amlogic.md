@@ -12,12 +12,6 @@
 | s905w | [X96-Mini](https://tokopedia.link/ro207Hsjqeb), [TX3-Mini](https://www.gearbest.com/tv-box/pp_009748238474.html) | 5.4.* | openwrt_s905w_k*.img |
 | s905 | [Beelink-Mini-MX-2G](https://www.gearbest.com/tv-box-mini-pc/pp_321409.html), [MXQ-PRO+4K](https://www.gearbest.com/tv-box-mini-pc/pp_354313.html) | 全部 | openwrt_s905_k*.img |
 
-
-#
-#
-
-- ## [内核是时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核，随便搞的话，没有该内核，打包就失败](https://github.com/ophub/kernel/tree/main/pub/stable)
-
 #
 #
 
@@ -26,7 +20,7 @@
 多机型需要中间加‘_’间隔，比如 s922x_s912
 多内核需要中间加‘_’间隔，比如 5.10.100_5.4.180
 ```
-
+- [内核是时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核，随便搞的话，没有该内核，打包就失败](https://github.com/ophub/kernel/tree/main/pub/stable)
 #
 #
 
