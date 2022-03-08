@@ -1,7 +1,7 @@
 - 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
 
 
-- # 介绍和编译教程
+- # 介绍
 ---
 - [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.10和5.15
 - [Lienol_source](https://github.com/Lienol/openwrt/tree/main)，Luci版本=Master、内核版本=5.10
