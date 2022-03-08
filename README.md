@@ -1,13 +1,7 @@
 - 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
 
-- # 择要
----
-- 2021/10/23号更新
-- 《[全新启动编译教程（必须获取密匙后才可以）](https://github.com/danshui-git/shuoming/blob/master/config.md)》
-- 《[全新一键保存配置同步上游仓库和清理仓库说明](https://github.com/danshui-git/shuoming/blob/master/chongxinfork.md)》
-- 新手教程全新整理了一下，应该更容易看懂了
----
-- # 介绍
+
+- # 介绍和编译教程
 ---
 - [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.10和5.15
 - [Lienol_source](https://github.com/Lienol/openwrt/tree/main)，Luci版本=Master、内核版本=5.10
