@@ -3,11 +3,11 @@
 
 - # 介绍
 ---
-- [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、[内核版本](https://github.com/coolsnowwolf/lede/blob/master/target/linux/x86/Makefile)
-- [Lienol_source](https://github.com/Lienol/openwrt/tree/main)，Luci版本=Master、内核版本=5.10
-- [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)，Luci版本=21.02、[内核版本](https://github.com/immortalwrt/immortalwrt/blob/openwrt-21.02/target/linux/x86/Makefile)
-- [Tianling_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-18.06)，Luci版本=18.06、[内核版本](https://github.com/immortalwrt/immortalwrt/blob/openwrt-18.06/target/linux/x86/Makefile)
-- [openwrt_amlogic](https://github.com/coolsnowwolf/lede)，N1和晶晨系列CPU盒子专用（Luci版本=18.06、[内核版本](https://github.com/coolsnowwolf/lede/blob/master/target/linux/x86/Makefile)）
+- [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、[查看内核版本](https://github.com/coolsnowwolf/lede/blob/master/target/linux/x86/Makefile)
+- [Lienol_source](https://github.com/Lienol/openwrt/tree/main)，Luci版本=Master、[查看内核版本](https://github.com/Lienol/openwrt/blob/main/target/linux/x86/Makefile)
+- [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)，Luci版本=21.02、[查看内核版本](https://github.com/immortalwrt/immortalwrt/blob/openwrt-21.02/target/linux/x86/Makefile)
+- [Tianling_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-18.06)，Luci版本=18.06、[查看内核版本](https://github.com/immortalwrt/immortalwrt/blob/openwrt-18.06/target/linux/x86/Makefile)
+- [openwrt_amlogic](https://github.com/coolsnowwolf/lede)，N1和晶晨系列CPU盒子专用（Luci版本=18.06、[查看内核版本](https://github.com/coolsnowwolf/lede/blob/master/target/linux/x86/Makefile)）
 #
 - 内核版本依x86为标准，其他很多机型内核版本都会低于x86的，查看内核的时候查看文件的【KERNEL_PATCHVER:=x.xx】就是当前默认使用的内核版本
 ---
