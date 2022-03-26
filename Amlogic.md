@@ -34,11 +34,19 @@ rootfs_size为rootfs分区大小，不能小于500，不懂就默认不要修改
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905d
 amlogic_kernel=5.10.70
-rootfs_size=1200
+rootfs_size=960
 EOF
 
 
-比如这样的，就是多机型+多核心组合打包，自由组合。
+比如这样的，就是双机型+双核心组合打包
+cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
+amlogic_model=s905x3_s905x2
+amlogic_kernel=5.10.100_5.4.170
+rootfs_size=960
+EOF
+
+
+这个组合就是全机型+自动检测最新双内核打包
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905x3_s905x2_s905x_s905w_s905d_s922x_s912
 amlogic_kernel=5.10.100_5.4.180 -a true
