@@ -126,13 +126,8 @@ openwrt-ddbr
 ```yaml
 openwrt-led
 ```
----
-- 若在 TF/USB 中使用 OpenWrt
 
-- 从浏览器访问 OpenWrt 输入IP，比如 192.168.1.1 → 使用默认账户登录进入 OpenWrt → 系统菜单 → TTYD 终端 → 输入命令 →  `openwrt-tf`
-
-- 激活剩余空间后，支持在 TF/USB 中升级内核和 OpenWrt 系统。
-- ---
+根据 [LED 屏显示控制说明](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/armbian-docs/led_screen_display_control.md) 进行调试。
 
 - ## 晶晨宝盒 使用截图
 
