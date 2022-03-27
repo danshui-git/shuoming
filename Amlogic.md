@@ -139,4 +139,4 @@ openwrt-led
 ![luci-app-amlogic](https://user-images.githubusercontent.com/68696949/145738345-31dd85cf-5e43-444e-a624-f21a28be2a7c.gif)
 
 ---
-- 以上相关内容全部获取与[ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)，需要更新更详细的内容可移步至此大佬仓库查看，感谢大佬的付出！
+- # 以上相关内容全部获取与[ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)，需要更新更详细的内容可移步至此大佬仓库查看，感谢大佬的付出！
