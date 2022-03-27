@@ -16,7 +16,9 @@
 💡提示：当前 ***`s905`*** 的盒子只能在 `TF/SD/USB` 中使用，其他型号的盒子同时支持写入 `EMMC` 中使用。当前 ***`s905w`*** 系列的盒子只支持使用 `5.4` 内核，不能使用 5.10 或更高版本，其他型号的盒子可任选内核版本使用。每个盒子的 dtb 和 u-boot 请查阅[说明](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/armbian-docs/config_correspondence_of_amlogic_s9xxx_tv_box.md)。
 
 #
-可以指定的型号有: `a311d`, `s905x3`, `s905x2`, `s905l3a`, `s905x`, `s905w`, `s905d`, `s905d-ki`, `s905`, `s922x`, `s922x-n2`, `s912`, `s912-m8s` 。说明：`s922x-reva` 是 `s922x-gtking-pro-rev_a`，`s922x-n2` 是 `s922x-odroid-n2` ，`s912-m8s` 是 `s912-mecool-m8s-pro-l` ，`s905d-ki` 是 `s912-mecool-ki-pro`，`s905x2-km3` 是 `s905x2-mecool-km3` 
+- 可以指定打包所用型号有: `a311d`, `s905x3`, `s905x2`, `s905l3a`, `s905x`, `s905w`, `s905d`, `s905d-ki`, `s905`, `s922x`, `s922x-n2`, `s912`, `s912-m8s` 。
+
+- 机型说明：`s922x-reva` 是 `s922x-gtking-pro-rev_a`，`s922x-n2` 是 `s922x-odroid-n2` ，`s912-m8s` 是 `s912-mecool-m8s-pro-l` ，`s905d-ki` 是 `s912-mecool-ki-pro`，`s905x2-km3` 是 `s905x2-mecool-km3` 
 #
 
 ```sh
@@ -28,10 +30,6 @@ amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如 5
 保持 5.10.100_5.4.180 -a true 不修改的话，每次编译都会默认同步上游仓库最新内核打包
 rootfs_size为rootfs分区大小，不能小于500，不懂就默认不要修改。
 组合方法通样适宜于本地打包的
-
-
-所有CPU型号为：s905x3_s905x2_s905x_s905w_s905d_s922x_s912
-比如你要打包N1的固件，就选择s905d的，然后选择核心版本，核心版本上面的链接可以查看，多机型跟多核心都要中间加‘_’。
 
 
 比如这样的，就是单机型+单核心组合打包
