@@ -28,9 +28,9 @@
 
 amlogic_modelw为机型设置，多机型需要中间加‘_’间隔，比如 s922x_s912
 amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如 5.10.100_5.4.180
-保持 5.10.100_5.4.180 -a true 不修改的话，每次编译都会默认同步上游仓库最新内核打包
+如果您设定内核为 5.10.100_5.4.180 -a true 的话，则会默认同步上游仓库最新内核打包
 rootfs_size为rootfs分区大小，不能小于500，不懂就默认不要修改。
-组合方法通样适宜于本地打包的
+组合方法同样适用于本地打包的
 
 
 比如这样的，就是单机型+单核心组合打包
@@ -137,3 +137,6 @@ openwrt-led
 - ## 晶晨宝盒 使用截图
 
 ![luci-app-amlogic](https://user-images.githubusercontent.com/68696949/145738345-31dd85cf-5e43-444e-a624-f21a28be2a7c.gif)
+
+---
+- 以上相关内容全部获取与[ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)，需要更新更详细的内容可移步至此大佬仓库查看，感谢大佬的付出！
