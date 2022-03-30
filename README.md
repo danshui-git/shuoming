@@ -14,17 +14,12 @@
 
 - openwrt_amlogic文件夹，编译s905x3_s905x2_s905x_s905w_s905d_s922x_s912《[自动打包您所需的固件说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
 
-- 源码已直接加入了常用插件了，您要自己拉取插件之前，请先看看【[常用插件列表](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)】，是否带了你的插件，或者是相同功能的插件。
+- 源码已直接加入【[常用插件列表](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)】
 
 - 《[如何在本地Ubuntu一键无脑编译](https://github.com/281677160/bendi)》
  
 - 《[把定时自动在线更新插件编译进固件的说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%E6%8F%92%E4%BB%B6.md)》
 
-```
-AdGuardHome更新核心的时候如果遇见‘A task is already running.’这个显示的话，请用命令来更新核心，
-op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用命令到更新到核心为止的，一般情况都能更新到核心。
-
- 命令是：while ! bash /usr/share/AdGuardHome/update_core.sh ; do sleep 2 ; done ; echo succeed
 ```
 ---
 #
