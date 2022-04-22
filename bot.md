@@ -8,7 +8,7 @@
 - 这串东西不应泄露给他人,否则被人滥用的话会导致该bot被禁止.
 
 
-- 3、 找到你的 TELEGRAM_CHAT_ID，在你的Telegram搜索 @get mu id ，就跟加好友一样，搜索出来有好几Get My ID个机器人的，随便点一个，然后聊天窗口那里点开始聊天，就能显示出你的TELEGRAM_CHAT_ID
+- 3、 找到你的 TELEGRAM_CHAT_ID，在你的Telegram搜索 @get my id ，就跟加好友一样，搜索出来有好几Get My ID个机器人的，随便点一个，然后聊天窗口那里点开始聊天，就能显示出你的TELEGRAM_CHAT_ID
 
 - 4、TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_BOT_TOKEN）不包括括号，Value下面大方框放进9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y，点下面的绿色按钮Add secret保存即完成
 
