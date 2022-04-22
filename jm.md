@@ -12,7 +12,7 @@
  # 获取密匙后，我们现在去您需要密匙的仓库，存放密匙
 #
 - 1、
-# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm4.png" />
+# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm4+.png" />
 - 2、
 # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/jm15.png" />
 - 3、
