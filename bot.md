@@ -14,7 +14,7 @@
 
 - 5、接下来再按`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_CHAT_ID）不包括括号，Value下面大方框放进1239000174，点下面的绿色按钮Add secret保存即完成
 
-[《存放秘密方法的图片形式介绍》](https://github.com/danshui-git/shuoming/blob/master/jm.md#%E8%8E%B7%E5%8F%96%E5%AF%86%E5%8C%99%E5%90%8E%E6%88%91%E4%BB%AC%E7%8E%B0%E5%9C%A8%E5%8E%BB%E6%82%A8%E9%9C%80%E8%A6%81%E5%AF%86%E5%8C%99%E7%9A%84%E4%BB%93%E5%BA%93%E5%AD%98%E6%94%BE%E5%AF%86%E5%8C%99) -->
+[《存放秘密方法的图片形式介绍》](https://github.com/danshui-git/shuoming/blob/master/jm.md#%E8%8E%B7%E5%8F%96%E5%AF%86%E5%8C%99%E5%90%8E%E6%88%91%E4%BB%AC%E7%8E%B0%E5%9C%A8%E5%8E%BB%E6%82%A8%E9%9C%80%E8%A6%81%E5%AF%86%E5%8C%99%E7%9A%84%E4%BB%93%E5%BA%93%E5%AD%98%E6%94%BE%E5%AF%86%E5%8C%99)
 
 - 7、设置完毕后如果打开了SSH连接的话，到了SSH这个步骤会自动把代码发送给你，也可以用于编译前后的信息提示。
 
