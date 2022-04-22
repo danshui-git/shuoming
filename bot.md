@@ -7,25 +7,8 @@
 
 - 这串东西不应泄露给他人,否则被人滥用的话会导致该bot被禁止.
 
-- 3、 找到你的 TELEGRAM_CHAT_ID ，找TELEGRAM_CHAT_ID有两种方法
 
-- 第一种方法
-- 第一种就是在你的Telegram搜索 @Get My ID ，就跟加好友一样，搜索出来有好几个机器人的，随便点一个，然后聊天窗口那里点开始聊天，就能显示出你的TELEGRAM_CHAT_ID
-
-#
-- 第二种方法
--  如果前面你已经点了你自己创建的机器人的名字 danshui_bot 链接来发送过一次信息了就继续下面步骤，如果没有请去点击发送一次，或者发送多次信息，这个关系到获取ID的问题。
-
--  将前面获得的TELEGRAM_BOT_TOKEN替换掉下面这个url中的XXYY部分,
--     https://api.telegram.org/botXXYY/getUpdates
-
-- 把TELEGRAM_BOT_TOKEN替换掉XXYY应该是这样的:   
--     https://api.telegram.org/bot9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y/getUpdates   
-- 然后在浏览器访问这个链接, 然后出来一串字符的，在字符里面找到message_id，需要注意的是这一串字符里面有3组阿拉伯数字的，你找"message_id":1,"from":{"id":1239000174,"is_bot" 1239000174这个就是你的TELEGRAM_CHAT_ID
-
--     总结你获得的TELEGRAM_BOT_TOKEN为：9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y
-
--     你获得的TELEGRAM_CHAT_ID为：1239000174
+- 3、 找到你的 TELEGRAM_CHAT_ID，在你的Telegram搜索 @get mu id ，就跟加好友一样，搜索出来有好几Get My ID个机器人的，随便点一个，然后聊天窗口那里点开始聊天，就能显示出你的TELEGRAM_CHAT_ID
 
 4、TELEGRAM_BOT_TOKEN 跟 TELEGRAM_CHAT_ID生成好了，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的`New repositonry secret`，然后在Name下面的方框写上名字，名字为（TELEGRAM_BOT_TOKEN）不包括括号，Value下面大方框放进9876543201:FEDCBA_dfoiuweSWEczgxT7-l4r9Y，点下面的绿色按钮Add secret保存即完成
 
