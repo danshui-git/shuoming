@@ -27,4 +27,5 @@
 
 - 1、pushplus推送，[点击这里](http://www.pushplus.plus/push1.html)，微信扫码登录，就可以看到你的token了
 #
-- 2、复制好pushplus你的token后，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（PUSH_PLUS_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成，[《存放密匙方法的图片形式介绍，此链接里面的倒数第三个图片开始就是密匙存放方法》](https://github.com/danshui-git/shuoming/blob/master/jm.md#%E8%8E%B7%E5%8F%96%E5%AF%86%E5%8C%99%E5%90%8E%E6%88%91%E4%BB%AC%E7%8E%B0%E5%9C%A8%E5%8E%BB%E6%82%A8%E9%9C%80%E8%A6%81%E5%AF%86%E5%8C%99%E7%9A%84%E4%BB%93%E5%BA%93%E5%AD%98%E6%94%BE%E5%AF%86%E5%8C%99)
+- 2、复制好pushplus你的token后，接下来到你自己的仓库，点Settings，再点左边的Secrets，然后点右上角的New repositonry secret，然后在Name下面的方框写上名字，名字为（PUSH_PLUS_TOKEN）不包括括号，Value下面大方框放进密匙，点下面的绿色按钮Add secret保存即完成
+- [《存放密匙方法的图片形式介绍，此链接里面的倒数第三个图片开始就是密匙存放方法》](https://github.com/danshui-git/shuoming/blob/master/jm.md#%E8%8E%B7%E5%8F%96%E5%AF%86%E5%8C%99%E5%90%8E%E6%88%91%E4%BB%AC%E7%8E%B0%E5%9C%A8%E5%8E%BB%E6%82%A8%E9%9C%80%E8%A6%81%E5%AF%86%E5%8C%99%E7%9A%84%E4%BB%93%E5%BA%93%E5%AD%98%E6%94%BE%E5%AF%86%E5%8C%99)
