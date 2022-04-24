@@ -21,7 +21,7 @@
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi6.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi7.png" />
 #
-- cd openwrt && make menuconfig
+- 复制命令：cd openwrt && make menuconfig
 #
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi8.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi111.png" />
