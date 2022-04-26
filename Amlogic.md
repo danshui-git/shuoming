@@ -41,7 +41,7 @@ amlogic_kernel=5.10.70
 rootfs_size=960
 EOF
 
-比如这样的，就是单机型+单核心组合，自动检测使用同类型内核最高版本打包
+比如这样的，就是单机型+单核心组合，自动检测使用同类型内核最高版本打包（您不用管他是5.10.70还是5.10.60）
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905d
 amlogic_kernel=5.10.70 -a true
@@ -55,7 +55,7 @@ amlogic_kernel=5.10.100_5.4.170
 rootfs_size=960
 EOF
 
-比如这样的，就是双机型+双核心组合，自动检测使用同类型内核最高版本打包
+比如这样的，就是双机型+双核心组合，自动检测使用同类型内核最高版本打包（您不用管他是5.10.100_5.4.180还是5.10.90_5.4.170）
 cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
 amlogic_model=s905x3_s905x2
 amlogic_kernel=5.10.100_5.4.180 -a true
