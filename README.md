@@ -58,6 +58,7 @@
 - 《[一键保存配置同步上游仓库说明](https://github.com/danshui-git/shuoming/blob/master/chongxinfork.md)》
 - 《[X86编译时选固件格式和设置overlay空间容量](https://github.com/danshui-git/shuoming/blob/master/overlay.md)》
 - 《[删除固件包中不想要的文件或固件](https://github.com/danshui-git/shuoming/blob/master/%E5%9B%BA%E4%BB%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E6%95%B4%E7%90%86.md)》
+- 《[编译前，修改默认内核编译](https://github.com/danshui-git/shuoming/blob/master/%E4%BF%AE%E6%94%B9%E5%86%85%E6%A0%B8%E7%89%88%E6%9C%AC.md)》
 - 《[IPV4/IPV6选择](https://github.com/danshui-git/shuoming/blob/master/%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E.md)》
 - 《[banner的说明](https://github.com/danshui-git/shuoming/blob/master/banner%E8%AF%B4%E6%98%8E.md)》
 - 《[本地提取.config](https://github.com/danshui-git/shuoming/blob/master/yijianconfig.md)》
