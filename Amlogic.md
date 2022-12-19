@@ -1,12 +1,6 @@
 - ## CPU型号跟机型的对照表
 - [点击查看CPU型号跟机型的对照表](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
 
-
-#
-- 可以指定打包所用型号有: s922x 、 s922x-n2 、 s922x-reva 、 a311d 、 s905x3 、 s905x2 、 s905x2-km3 、 s905l3a 、 s912 、 s912-m8s 、 s905d 、 s905d-ki 、 s905x 、 s905w 、 s905
-
-- 机型说明：`s922x-reva` 是 `s922x-gtking-pro-rev_a`，`s922x-n2` 是 `s922x-odroid-n2` ，`s912-m8s` 是 `s912-mecool-m8s-pro-l` ，`s905d-ki` 是 `s912-mecool-ki-pro`，`s905x2-km3` 是 `s905x2-mecool-km3` 
-
 - [内核版本时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核，随便搞的话，没有该内核，打包就失败](https://github.com/ophub/kernel/tree/main/pub/stable)
 #
 ```sh
@@ -15,13 +9,11 @@
 
  内核，机型，固件rootfs大小填入示例
  自动检测最新内核,比如您写的是 5.15.25 当前最高版本为 5.15.78 的话就自动打包5.15.78的,不自动检测的话,就打包 5.15.25
- export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
- 可用芯片：a311d, s922x, s905x3, s905x2, s905l3a, s912, s905d, s905x, s905w, s905
- 对应支持什么机型，请看说明
 
  export amlogic_model="此内填入可用芯片，或多芯片组合"
  export amlogic_kernel="此内填入内核，或者多内核组合"
  export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是，如果不是的话，要填写当前有的准确内核版本）
+ export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
 
 
 请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
