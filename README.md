@@ -3,7 +3,7 @@
 
 - # 介绍
 
-- openwrt_amlogic文件夹，编译s905x3_s905x2_s905x_s905w_s905d_s922x_s912《[自动打包您所需的固件说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
+- 编译amlogic系列，《[自动打包您所需的固件说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
 
 - 源码已直接加入【[常用插件列表](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)】
 
