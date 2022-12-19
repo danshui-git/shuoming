@@ -10,44 +10,18 @@
 - [内核版本时时变动的，所以选择内核之前，一定要点击这里查看一下当前可用内核，随便搞的话，没有该内核，打包就失败](https://github.com/ophub/kernel/tree/main/pub/stable)
 #
 ```sh
-机型和核心组合设置在：build/openwrt_amlogic/diy-part.sh
+机型和核心组合设置在[diy-part.sh]控制文件设置
 
 
-amlogic_model为机型设置，多机型需要中间加‘_’间隔，比如 s922x_s912_s922x-n2_s922x-reva_s905x2-km3
-amlogic_kernel为内核设置，多内核需要中间加‘_’间隔，比如 5.10.100_5.4.180
-设定内核的时候加上 -a true 的话，则默认自动检测使用同类型的最高版本，比如单内核 5.4.180 -a true 那就是使用5.4.xxx 最高版本
-比如双内核形式 5.10.100_5.4.180 -a true 的话，那就是使用 5.10.xxx 和 5.4.xxx 最高版本
-rootfs_size为rootfs分区大小，不能小于500，不懂就默认不要修改。
-组合方法同样适用于本地打包的
+ 内核，机型，固件rootfs大小填入示例
+ 自动检测最新内核,比如您写的是 5.15.25 当前最高版本为 5.15.78 的话就自动打包5.15.78的,不自动检测的话,就打包 5.15.25
+ export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
+ 可用芯片：a311d, s922x, s905x3, s905x2, s905l3a, s912, s905d, s905x, s905w, s905
+ 对应支持什么机型，请看说明
 
-
-比如这样的，就是单机型+单核心组合打包
-cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
-amlogic_model=s905d
-amlogic_kernel=5.10.70
-rootfs_size=960
-EOF
-
-比如这样的，就是单机型+单核心组合，自动检测使用同类型内核最高版本打包（您不用管他是5.10.70还是5.10.60）
-cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
-amlogic_model=s905d
-amlogic_kernel=5.10.70 -a true
-rootfs_size=960
-EOF
-
-比如这样的，就是双机型+双核心组合打包
-cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
-amlogic_model=s905x3_s905x2
-amlogic_kernel=5.10.100_5.4.170
-rootfs_size=960
-EOF
-
-比如这样的，就是双机型+双核心组合，自动检测使用同类型内核最高版本打包（您不用管他是5.10.100_5.4.180还是5.10.90_5.4.170）
-cat >$GITHUB_WORKSPACE/amlogic_openwrt <<-EOF
-amlogic_model=s905x3_s905x2
-amlogic_kernel=5.10.100_5.4.180 -a true
-rootfs_size=960
-EOF
+ export amlogic_model="此内填入可用芯片，或多芯片组合"
+ export amlogic_kernel="此内填入内核，或者多内核组合"
+ export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是，如果不是的话，要填写当前有的准确内核版本）
 
 
 请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
@@ -124,7 +98,7 @@ openwrt-ddbr
 openwrt-led
 ```
 
-- 根据 [LED 屏显示控制说明](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/armbian-docs/led_screen_display_control.md) 进行调试。
+- 根据 [LED 屏显示控制说明]([https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/armbian-docs/led_screen_display_control.md](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/documents/led_screen_display_control.md#led-%E5%B1%8F%E6%98%BE%E7%A4%BA%E6%8E%A7%E5%88%B6%E8%AF%B4%E6%98%8E)) 进行调试。
 
 ---
 - ## 晶晨宝盒 使用截图
