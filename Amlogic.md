@@ -1,5 +1,5 @@
-- ## CPU型号跟机型的对照表
-- [点击查看CPU型号跟机型的对照表](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
+- #
+- [查看芯片对应的机型](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
 
 - [查看当前可使用内核](https://github.com/ophub/kernel/tree/main/pub/stable)
 #
