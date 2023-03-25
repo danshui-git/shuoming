@@ -1,6 +1,6 @@
 
 
-- [查看当前可使用内核]([https://github.com/ophub/kernel/tree/kernel_stable/pub)
+- [查看当前可使用内核](https://github.com/ophub/kernel/tree/kernel_stable/pub)
 
 - [内核仓库说明](https://github.com/ophub/kernel/blob/kernel_stable/README.cn.md)
 #
