@@ -1,11 +1,10 @@
 - # 启动编译和SSH连接配置固件教程(必须设置好了密匙后才来启动)
 - # 私库没法用触发编译，私库也不能使用同步仓库程序
+- # 2023年2月多开始，SSH的网页版没办法用了，用工具连接还是没问题
 
 - ## 在这里您可能需要用到以下教程
 - 《[用putty工具连接SSH，图文教程](https://github.com/danshui-git/shuoming/blob/master/3SSH%E8%BF%9E%E6%8E%A5%E8%AF%B4%E6%98%8E.md)》
 - 《[插件中文名称对照](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)》
-
-- 首先声明，所有视频都不是我做的，放视频在这里只是给大家了解一下怎么修改机型跟选择插件而已，不是叫大家对着视频照着干，千万不要这样做，你就看会什么东西在哪个位置就好了。
 
 ---
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi0.png" />
