@@ -14,6 +14,7 @@
  export amlogic_kernel="此内填入内核，或者多内核组合"
  export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是，如果不是的话，要填写当前有的准确内核版本）
  export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
+ export kernel_repo="https://github.com/ophub/kernel/tree/main/pub"   内核存放仓库，这个一般不需要修改，除非你知道你在干嘛
 
 
 请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
