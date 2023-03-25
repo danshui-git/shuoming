@@ -24,12 +24,20 @@ h88k,r66s,r68s,h66k,h68k,e25,eaidk-610,king3399,tn3399,kylin3399,beikeyun,l1pro,
 可选内核 （5.4.xx） （5.10.xx） （5.15.xx） （6.1.xx）
 
 
-比如打包N1的单机型，单内核
- export amlogic_model="s905d"
- export amlogic_kernel="5.10.100"
- export auto_kernel="true"
- export rootfs_size="960"
- export kernel_repo="https://github.com/ophub/kernel/tree/kernel_stable/pub"
+比如单独打包N1的固件，只打包5.10内核的
+export amlogic_model="s905d"
+export amlogic_kernel="5.10.100"
+export auto_kernel="true"
+export rootfs_size="960"
+export kernel_repo="https://github.com/ophub/kernel/tree/kernel_stable/pub"
+ 
+ 
+比如打包N1和的s922x，要打包出5.10内核跟6.1内核的固件
+export amlogic_model="s905d_s922x"
+export amlogic_kernel="5.10.100_6.1.20"
+export auto_kernel="true"
+export rootfs_size="960"
+export kernel_repo="https://github.com/ophub/kernel/tree/kernel_stable/pub"
 
 
 请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
