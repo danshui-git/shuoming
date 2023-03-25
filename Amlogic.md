@@ -10,19 +10,21 @@
 机型和核心组合设置在[diy-part.sh]控制文件设置
 
 
-设置打包固件的机型和内核组合（可用内核是时时变化的,过老的内核就删除的，所以要选择什么内核请看说明）
 export amlogic_model="此内填入可用芯片，或多芯片组合。比如：s905d 或 s905d_s905x2"
+
 export amlogic_kernel="此内填入内核，或者多内核组合。比如：5.4.233 或 5.4.233_6.1.14"
+
 export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是）
 自动检测最新内核,比如您写的是 5.15.25 当前最高版本为 5.15.78 的话就自动打包5.15.78的,不自动检测的话,就打包 5.15.25
+
 export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
+
 export kernel_repo="上游内核存放仓库，默认是《https://github.com/ophub/kernel/tree/kernel_stable/pub》"
+
 可用芯片如下：
 a311d,s922x,s922x-reva,s922x-ct2000,s905x3,s905x3-b,s905x2,s912,s912-m8s,tqc-a01,tanix-tx6,
 s905d,s905d-ki,s905x,s905w,s905,s905l2,s905l3,s905l3a,s905l3b,s905lb-r3300l,rock5b,
 h88k,r66s,r68s,h66k,h68k,e25,eaidk-610,king3399,tn3399,kylin3399,beikeyun,l1pro,vplus
-对应支持什么机型，也不是所有芯片组都可以打包所有版本内核的，有个别分内核版本，请看说明
-可选内核 （5.4.xx） （5.10.xx） （5.15.xx） （6.1.xx）
 
 
 比如单独打包N1的固件，只打包5.10内核的
