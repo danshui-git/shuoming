@@ -13,9 +13,9 @@
 
 ---
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi0.png" />
-- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi12.png" />
-- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi13.png" />
-- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi14.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi1.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi1.png" />
+- <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi1.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi4.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi5.png" />
 - <img src="https://github.com/danshui-git/shuoming/blob/master/doc/xinqi6.png" />
