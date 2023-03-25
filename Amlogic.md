@@ -15,7 +15,7 @@ export amlogic_kernel="此内填入内核，或者多内核组合。比如：5.4
 export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是）
 自动检测最新内核,比如您写的是 5.15.25 当前最高版本为 5.15.78 的话就自动打包5.15.78的,不自动检测的话,就打包 5.15.25
 export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
-export kernel_repo="上游内核存放仓库，默认是https://github.com/ophub/kernel/tree/main/pub"
+export kernel_repo="上游内核存放仓库，默认是《https://github.com/ophub/kernel/tree/kernel_stable/pub》"
 可用芯片如下：
 a311d,s922x,s922x-reva,s922x-ct2000,s905x3,s905x3-b,s905x2,s912,s912-m8s,tqc-a01,tanix-tx6,
 s905d,s905d-ki,s905x,s905w,s905,s905l2,s905l3,s905l3a,s905l3b,s905lb-r3300l,rock5b,
@@ -24,11 +24,12 @@ h88k,r66s,r68s,h66k,h68k,e25,eaidk-610,king3399,tn3399,kylin3399,beikeyun,l1pro,
 可选内核 （5.4.xx） （5.10.xx） （5.15.xx） （6.1.xx）
 
 
- export amlogic_model="此内填入可用芯片，或多芯片组合"
- export amlogic_kernel="此内填入内核，或者多内核组合"
- export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是，如果不是的话，要填写当前有的准确内核版本）
- export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
- export kernel_repo="https://github.com/ophub/kernel/tree/main/pub"   内核存放仓库，这个一般不需要修改，除非你知道你在干嘛
+比如打包N1的单机型，单内核
+ export amlogic_model="s905d"
+ export amlogic_kernel="5.10.100"
+ export auto_kernel="true"
+ export rootfs_size="960"
+ export kernel_repo="https://github.com/ophub/kernel/tree/kernel_stable/pub"
 
 
 请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
