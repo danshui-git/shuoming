@@ -3,6 +3,8 @@
 - [查看当前可使用内核](https://github.com/ophub/kernel/tree/kernel_stable/pub)
 
 - [内核仓库说明](https://github.com/ophub/kernel/blob/kernel_stable/README.cn.md)
+
+- [芯片型号对应可用机型说明](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
 #
 
 
