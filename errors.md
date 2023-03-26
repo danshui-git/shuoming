@@ -1,9 +1,5 @@
 - ## 编译错误自查法
 
-- # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er9.png" />
-
-- # <img src="https://github.com/danshui-git/shuoming/blob/master/doc/er10.png" />
-
 - 如果编译的时候出现编译出错的话，有好多都是可以自己查出来的，下面就来说说怎么查看日志找错误
 
 - 出现编译错误，首先要看看是不是在【开编译固件】步骤出现错误，我现在只说是出现在【开编译固件】步骤的错误
