@@ -2,7 +2,16 @@
 
 - [查看当前可使用内核](https://github.com/ophub/kernel/tree/kernel_stable/pub)
 
-- [内核仓库说明](https://github.com/ophub/kernel/blob/kernel_stable/README.cn.md)
+- [stable(稳定版)](https://github.com/ophub/kernel/releases/tag/kernel_stable)
+
+- [dev(测试版)](https://github.com/ophub/kernel/releases/tag/kernel_dev)
+
+- [flippy(unifreq版)](https://github.com/ophub/kernel/releases/tag/kernel_flippy)
+
+- [rk3588(Rock-5B和HinLink-H88K专用版)](https://github.com/ophub/kernel/releases/tag/kernel_rk3588)
+
+- [内核仓库说明：stable(稳定版)、dev(测试版)、flippy(unifreq版)、rk3588(Rock-5B和HinLink-H88K专用版)](https://github.com/ophub/kernel/blob/kernel_stable/README.cn.md)
+
 
 - [芯片型号对应可用机型说明](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
 #
@@ -19,9 +28,9 @@ export amlogic_kernel="此内填入内核，或者多内核组合。比如：5.4
 export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是）
 自动检测最新内核,比如您写的是 5.15.25 当前最高版本为 5.15.78 的话就自动打包5.15.78的,不自动检测的话,就打包 5.15.25
 
-export rootfs_size="填入不低于500的数值，数值越大空间越大，一般960够了"
+export rootfs_size="填入不低于2560的数值，数值越大空间越大，一般2560够了"
 
-export kernel_repo="上游内核存放仓库，默认是《https://github.com/ophub/kernel/tree/kernel_stable/pub》"
+export kernel_usage="上游存放内核的仓库地址，可用仓库：stable、dev、flippy、rk3588"
 
 可用芯片如下：
 a311d,s922x,s922x-reva,s922x-ct2000,s905x3,s905x3-b,s905x2,s912,s912-m8s,tqc-a01,tanix-tx6,
@@ -33,16 +42,16 @@ h88k,r66s,r68s,h66k,h68k,e25,eaidk-610,king3399,tn3399,kylin3399,beikeyun,l1pro,
 export amlogic_model="s905d"
 export amlogic_kernel="5.10.100"
 export auto_kernel="true"
-export rootfs_size="960"
-export kernel_repo="https://github.com/ophub/kernel/tree/kernel_stable/pub"
+export rootfs_size="2560"
+export kernel_usage="stable"
  
  
 比如打包N1和的s922x，要打包出5.10内核跟6.1内核的固件
 export amlogic_model="s905d_s922x"
 export amlogic_kernel="5.10.100_6.1.20"
 export auto_kernel="true"
-export rootfs_size="960"
-export kernel_repo="https://github.com/ophub/kernel/tree/kernel_stable/pub"
+export rootfs_size="2560"
+export kernel_usage="stable"
 
 
 请注意，不是组合越多就越好的，每个内核就打包一个固件而已，不是一个固件里面可以塞进去几个内核的，
