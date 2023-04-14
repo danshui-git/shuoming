@@ -1,6 +1,6 @@
 
 
-- [查看当前可使用内核](https://github.com/ophub/kernel/tree/kernel_stable/pub)
+- 查看当前可使用内核
 
 - [stable(稳定版)](https://github.com/ophub/kernel/releases/tag/kernel_stable)
 
