@@ -1,40 +1,6 @@
-结合大神们的帖子，Openwrt要支持USB, 包括NTFS格式的U盘，正常读写包括热插拔，需要的东西如下
+# NTFS格式优盘挂载
 
-1、首先复制下面的命令放入对应源码的 diy-part.sh 里面保存
-
-mkdir -p files/etc/hotplug.d/block && curl -fsSL https://raw.githubusercontent.com/281677160/openwrt-package/usb/block/10-mount > files/etc/hotplug.d/block/10-mount
-
-2、打开SSH连接服务器配置固件的开关，然后启动编译，连接SSH进入配置固件，选取如下
-
-3、
-Base system —>  <*>block-mount
-
-4、
-Utilities  ---> disc --->   <*> fdisk
-Utilities  --->   <*> usbutils
-
-Utilities —> Filesystem —>  <*> badblocks
-Utilities —> Filesystem —>  <*> ntfs-3g
-
-5、
-Kernel modules —> Block Devices —>  <*>kmod-scsi-core
-
-6、
-Kernel modules —> USB Support —>  <*> kmod-usb-core
-Kernel modules —> USB Support —>  <*> kmod-usb-ohci
-Kernel modules —> USB Support —>  <*> kmod-usb-uhci
-Kernel modules —> USB Support —>  <*> kmod-usb-storage
-Kernel modules —> USB Support —>  <*> kmod-usb-storage-extras
-Kernel modules —> USB Support —>  <*> kmod-usb2    ##usb2.0
-Kernel modules —> USB Support —>  <*> kmod-usb3    ##usb3.0
-
-7、
-Kernel modules —> Filesystems —>  <*> kmod-fs-ext4
-Kernel modules —> Filesystems —>  <*> kmod-fs-vfat
-Kernel modules —> Filesystems —>  <*> kmod-fuse  
-请注意，这里绝对不要选择kmod-fs-ntfs，否则NTFS格式盘是只读模式
-
-以上选择每个机型都不一样，有些已经默认选择了，有些没有选，反正你们由上至下的一个个选择就好了，有就不管，没有就选上
+1、
 
 
 8、安装好固件后，插入U盘或移动硬盘 再次重启路由器 在openwrt的‘系统’-->挂载点 查看设备
