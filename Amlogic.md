@@ -1,19 +1,16 @@
 
 
-- 查看当前可使用内核
+- 内核仓库选择说：
 
-- [stable(稳定版)](https://github.com/ophub/kernel/releases/tag/kernel_stable)
+- [stable（稳定版）](https://github.com/ophub/kernel/releases/tag/kernel_stable)
 
-- [dev(测试版)](https://github.com/ophub/kernel/releases/tag/kernel_dev)
+- [dev（测试版）](https://github.com/ophub/kernel/releases/tag/kernel_dev)
 
-- [flippy(unifreq版)](https://github.com/ophub/kernel/releases/tag/kernel_flippy)
+- [flippy（unifreq版）](https://github.com/ophub/kernel/releases/tag/kernel_flippy)
 
-- [rk3588(Rock-5B和HinLink-H88K专用版)](https://github.com/ophub/kernel/releases/tag/kernel_rk3588)
+- [rk3588（Rock-5B和HinLink-H88K专用版）](https://github.com/ophub/kernel/releases/tag/kernel_rk3588)
 
-- [内核仓库说明：stable(稳定版)、dev(测试版)、flippy(unifreq版)、rk3588(Rock-5B和HinLink-H88K专用版)](https://github.com/ophub/kernel/blob/kernel_stable/README.cn.md)
-
-
-- [芯片型号对应可用机型说明](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
+- [芯片型号对应什么机型说明](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
 #
 
 
