@@ -1,9 +1,9 @@
 # NTFS格式优盘挂载
 
-1、在最新版的编译脚本的自定义设置文件（diy-part.sh）里面，把 export Enable_IPV6_function="0" 改成 export Enable_IPV6_function="1" 搞定
+1、在最新版的编译脚本的自定义设置文件（diy-part.sh）里面，把 export Automatic_Mount_Settings="0" 改成 export Automatic_Mount_Settings="1" 搞定
 
 ````
-export Enable_IPV6_function="1"
+export Automatic_Mount_Settings="1"
 ````
 
 2、安装好固件后，插入U盘或移动硬盘 再次重启路由器 在openwrt的‘系统’-->挂载点 查看设备
