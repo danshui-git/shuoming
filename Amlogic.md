@@ -11,6 +11,8 @@
 - [rk3588（Rock-5B和HinLink-H88K专用版）](https://github.com/ophub/kernel/releases/tag/kernel_rk3588)
 
 - [芯片型号对应什么机型说明](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
+
+- [手动打包再次，或者多次打包固件说明](https://github.com/danshui-git/shuoming/blob/master/sddb.md)
 #
 
 
