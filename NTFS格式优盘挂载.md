@@ -1,6 +1,7 @@
 # NTFS格式优盘挂载
 
-1、在最新版的编译脚本的自定义设置文件（diy-part.sh）里面，把 export Automatic_Mount_Settings="0" 改成 export Automatic_Mount_Settings="1" 搞定
+1、在最新版的编译脚本的自定义设置文件（diy-part.sh）里面，
+把 export Automatic_Mount_Settings="0" 改成 export Automatic_Mount_Settings="1" 搞定
 
 ````
 export Automatic_Mount_Settings="1"
