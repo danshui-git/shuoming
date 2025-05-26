@@ -2,17 +2,19 @@
 
 - 内核仓库选择说：
 
-- [stable（稳定版）](https://github.com/ophub/kernel/releases/tag/kernel_stable)
+- [stable（稳定版）](https://github.com/ophub/kernel/releases/tag/kernel_stable)，在这里可以查看到当前内核仓库有什么版本内核可以选择
 
-- [dev（测试版）](https://github.com/ophub/kernel/releases/tag/kernel_dev)
+- [flippy（unifreq版）](https://github.com/ophub/kernel/releases/tag/kernel_flippy)，在这里可以查看到当前内核仓库有什么版本内核可以选择
 
-- [flippy（unifreq版）](https://github.com/ophub/kernel/releases/tag/kernel_flippy)
+- [dev（原生版）](https://github.com/ophub/kernel/releases/tag/kernel_dev)，在这里可以查看到当前内核仓库有什么版本内核可以选择
 
-- [rk3588（Rock-5B和HinLink-H88K专用版）](https://github.com/ophub/kernel/releases/tag/kernel_rk3588)
+- [beta（测试版）](https://github.com/ophub/kernel/releases/tag/kernel_beta)，在这里可以查看到当前内核仓库有什么版本内核可以选择
+
+- [rk3588（Rockchip rk3588专用版）](https://github.com/ophub/kernel/releases/tag/kernel_rk3588)，在这里可以查看到当前内核仓库有什么版本内核可以选择
 
 - [芯片型号对应什么机型说明](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/README.cn.md#openwrt-%E5%9B%BA%E4%BB%B6%E8%AF%B4%E6%98%8E)
 
-- [手动打包再次，或者多次打包固件说明](https://github.com/danshui-git/shuoming/blob/master/sddb.md)
+- [手动打包，或者多次打包固件说明](https://github.com/danshui-git/shuoming/blob/master/sddb.md)
 #
 
 
@@ -27,14 +29,9 @@ export amlogic_kernel="此内填入内核，或者多内核组合。比如：5.4
 export auto_kernel="true" 是否自动检测最新内核来打包（true为是，false为不是）
 自动检测最新内核,比如您写的是 5.15.25 当前最高版本为 5.15.78 的话就自动打包5.15.78的,不自动检测的话,就打包 5.15.25
 
-export rootfs_size="填入不低于2560的数值，数值越大空间越大，一般2560够了"
+export rootfs_size="系统分区，默认是1024，如果这样写就是512/2560，就是同时改变内核分区和系统分区"
 
-export kernel_usage="上游存放内核的仓库地址，可用仓库：stable、dev、flippy、rk3588"
-
-可用芯片如下：
-a311d,s922x,s922x-reva,s922x-ct2000,s905x3,s905x3-b,s905x2,s912,s912-m8s,tqc-a01,tanix-tx6,
-s905d,s905d-ki,s905x,s905w,s905,s905l2,s905l3,s905l3a,s905l3b,s905lb-r3300l,rock5b,
-h88k,r66s,r68s,h66k,h68k,e25,eaidk-610,king3399,tn3399,kylin3399,beikeyun,l1pro,vplus
+export kernel_usage="上游存放内核的仓库地址，可用仓库：stable、flippy、dev、beta"
 
 
 比如单独打包N1的固件，只打包5.10内核的
