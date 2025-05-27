@@ -73,8 +73,3 @@
 - <a href="#/README.md">感谢各位帮助过我的人，祝福各位好人一生平安</a>
 
 #
-- # 捐赠
-- 如果你觉得此项目对你有帮助，请请我喝一杯82年的凉白开，感谢！
-
--微信-
-# <img src="https://github.com/danshui-git/shuoming/blob/master/doc/weixin4.png" />
