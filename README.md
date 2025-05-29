@@ -47,7 +47,6 @@
 - 《[删除固件包中不想要的文件或固件](https://github.com/danshui-git/shuoming/blob/master/%E5%9B%BA%E4%BB%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E6%95%B4%E7%90%86.md)》
 - 《[IPV4/IPV6选择，和去除网络共享](https://github.com/danshui-git/shuoming/blob/master/%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E.md)》
 - 《[banner的说明](https://github.com/danshui-git/shuoming/blob/master/banner%E8%AF%B4%E6%98%8E.md)》
-- 《[本地提取.config](https://github.com/danshui-git/shuoming/blob/master/yijianconfig.md)》
 - 《[patch补丁制作](https://github.com/danshui-git/shuoming/blob/master/buding.md)》
 - 《[编译时增加NTFS格式盘挂载](https://github.com/danshui-git/shuoming/blob/master/NTFS%E6%A0%BC%E5%BC%8F%E7%9B%98%E6%8C%82%E8%BD%BD.md)》
 - 《[拉取插件命令和各种命令的简单介绍](https://github.com/danshui-git/shuoming/blob/master/ming.md)》
