@@ -42,7 +42,6 @@
 - 《[Telegram和pushplus的密匙获取方式](https://github.com/danshui-git/shuoming/blob/master/bot.md)》
 - 《[在build文件夹里面，多开或删除文件夹教程](https://github.com/danshui-git/shuoming/blob/master/jlck.md)》
 - 《[定时触发开启编译说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E.md)》
-- 《[一键同步上游仓库说明](https://github.com/danshui-git/shuoming/blob/master/chongxinfork.md)》
 - 《[X86编译时选固件格式和设置overlay空间容量](https://github.com/danshui-git/shuoming/blob/master/overlay.md)》
 - 《[删除固件包中不想要的文件或固件](https://github.com/danshui-git/shuoming/blob/master/%E5%9B%BA%E4%BB%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E6%95%B4%E7%90%86.md)》
 - 《[IPV4/IPV6选择，和去除网络共享](https://github.com/danshui-git/shuoming/blob/master/%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E.md)》
